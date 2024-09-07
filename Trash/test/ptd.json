@@ -1,0 +1,3355 @@
+
+{
+    "props": {
+        "isServer": true,
+        "initialState": {
+            "desktop": {
+                "app": {
+                    "userVisibleTab": false,
+                    "customer": null,
+                    "login": false,
+                    "webConfig": {
+                        "desktopWeb": {
+                            "dummyData": "okokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokokok123",
+                            "reward_revamp": "tikier",
+                            "tkngon_age_confirm_session_duration_interval_second": 1800000,
+                            "disableGTM": true,
+                            "chatBotEnable": true,
+                            "showCouponCode": true,
+                            "myAccountShowCouponCode": true,
+                            "showExternalSellerPrice": false,
+                            "showExternalPrices": false,
+                            "exp_browse_external_price_clickable": false,
+                            "loginV2Enable": true,
+                            "impressionEnable": true,
+                            "newPersonalizeAPI": true,
+                            "allowComboWidget": true,
+                            "serviceWorker": {
+                                "enable": true,
+                                "enableTrackity": true
+                            },
+                            "pdp_quantity_sold": "new",
+                            "freeship_home_header": {
+                                "image_url": "https://salt.tikicdn.com/ts/brickv2og/70/07/62/9a90de2324bda05df7ff137972de1c70.png",
+                                "url": "https://tiki.vn/sep/my-sep",
+                                "width": 129,
+                                "height": 18
+                            },
+                            "popupManager": {
+                                "home": {
+                                    "maxPerDay": 4,
+                                    "maxPerPageLoad": 1,
+                                    "autoClose": true,
+                                    "autoCloseTimeout": 10000,
+                                    "activeTimeout": 3000,
+                                    "usingAnimation": false,
+                                    "gapTime": 3000
+                                }
+                            },
+                            "shareToEarn": {
+                                "popup_background_color": "#856EFA",
+                                "popup_header_image_url": "https://salt.tikicdn.com/ts/upload/28/74/b6/fc33902e7c90a643705c2a6b1a31d2bf.png",
+                                "popular_apps": [
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/7b/06/71/32738d3827021cc973aac49d53945160.png",
+                                        "title": "FaceBook",
+                                        "package_name": "com.facebook.katana"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/e6/fb/b4/31e2d7b0fed5775c999dfb5e5bc0ab38.png",
+                                        "title": "Messenger",
+                                        "package_name": "com.facebook.orca"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/36/98/59/a3e7abb1fa23676ab93cc15cae5e1b8a.png",
+                                        "title": "Telegram",
+                                        "package_name": "org.telegram.messenger"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/cc/fd/31/da8a5e0142380cda13b363dfb70eafef.png",
+                                        "title": "Zalo",
+                                        "package_name": "com.zing.zalo"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/7b/ff/97/c94d349388a329dc5074bad6b5c6e0ca.png",
+                                        "title": "TikTok",
+                                        "package_name": "com.ss.android.ugc.trill"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/ed/af/7a/675df0274296a880592cf53d68b05dc9.png",
+                                        "title": "Instagram",
+                                        "package_name": "com.instagram.android"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/32/9a/7e/466fbfee8c190f2bc177dce6738794dd.png",
+                                        "title": "Line",
+                                        "package_name": "jp.naver.line.android"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/cc/2a/64/7e70a6e3f80d4ac1c6d295a40f34a6ad.png",
+                                        "title": "WhatsApp",
+                                        "package_name": "com.whatsapp"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/3b/19/5c/fc521fe8fdee6365bc57802cd81e8f09.png",
+                                        "title": "Viber",
+                                        "package_name": "com.viber.voip"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/6f/b5/bf/b12ef18a8f937b56eec595d4f1368502.png",
+                                        "title": "Twitter",
+                                        "package_name": "com.twitter.android"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/80/9a/23/5306fecae523e3ab7e05421e9d8a05ba.png",
+                                        "title": "Pinterest",
+                                        "package_name": "com.pinterest"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/c9/ea/98/a77289a0e9926961e0f9a906dcdcedff.png",
+                                        "title": "Sao chép",
+                                        "type": "copy"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/ff/34/31/bb46caed68baaa706926ba5863ae8a69.png",
+                                        "title": "SMS",
+                                        "type": "share_via_sms"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/5d/86/6e/d6bbd6de0ca7c8757ac15af532f8a650.png",
+                                        "title": "Email",
+                                        "type": "share_via_email"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/d9/3e/56/e1916e9624a1e7a6035000bf7f57fed9.png",
+                                        "title": "Thêm",
+                                        "type": "default_share"
+                                    }
+                                ]
+                            }
+                        },
+                        "mobileWeb": {
+                            "pwa_banner_show": true,
+                            "pwa_banner_expiry_days": 2,
+                            "reward_revamp": "tikier",
+                            "chatBotEnable": true,
+                            "showCouponCode": true,
+                            "myAccountShowCouponCode": true,
+                            "showExternalSellerPrice": false,
+                            "showExternalPrices": false,
+                            "exp_browse_external_price_clickable": false,
+                            "impressionEnable": true,
+                            "tkngon_age_confirm_session_duration_interval_second": 1800000,
+                            "newPersonalizeAPI": true,
+                            "pdp_quantity_sold": "new",
+                            "onePageCheckoutEnable": true,
+                            "allowComboWidget": true,
+                            "serviceWorker": {
+                                "enable": true,
+                                "enableTrackity": true
+                            },
+                            "freeship_home_header": {
+                                "image_url": "https://salt.tikicdn.com/ts/brickv2og/db/eb/7c/a926af0ba3dc2802148bfc39563180c2.png",
+                                "url": "https://tiki.vn/sep/my-sep",
+                                "width": 90.1,
+                                "height": 34
+                            },
+                            "shareToEarn": {
+                                "popup_background_color": "#856EFA",
+                                "popup_header_image_url": "https://salt.tikicdn.com/ts/upload/28/74/b6/fc33902e7c90a643705c2a6b1a31d2bf.png",
+                                "popular_apps": [
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/7b/06/71/32738d3827021cc973aac49d53945160.png",
+                                        "title": "FaceBook",
+                                        "package_name": "com.facebook.katana"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/e6/fb/b4/31e2d7b0fed5775c999dfb5e5bc0ab38.png",
+                                        "title": "Messenger",
+                                        "package_name": "com.facebook.orca"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/36/98/59/a3e7abb1fa23676ab93cc15cae5e1b8a.png",
+                                        "title": "Telegram",
+                                        "package_name": "org.telegram.messenger"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/cc/fd/31/da8a5e0142380cda13b363dfb70eafef.png",
+                                        "title": "Zalo",
+                                        "package_name": "com.zing.zalo"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/7b/ff/97/c94d349388a329dc5074bad6b5c6e0ca.png",
+                                        "title": "TikTok",
+                                        "package_name": "com.ss.android.ugc.trill"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/ed/af/7a/675df0274296a880592cf53d68b05dc9.png",
+                                        "title": "Instagram",
+                                        "package_name": "com.instagram.android"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/32/9a/7e/466fbfee8c190f2bc177dce6738794dd.png",
+                                        "title": "Line",
+                                        "package_name": "jp.naver.line.android"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/cc/2a/64/7e70a6e3f80d4ac1c6d295a40f34a6ad.png",
+                                        "title": "WhatsApp",
+                                        "package_name": "com.whatsapp"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/3b/19/5c/fc521fe8fdee6365bc57802cd81e8f09.png",
+                                        "title": "Viber",
+                                        "package_name": "com.viber.voip"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/6f/b5/bf/b12ef18a8f937b56eec595d4f1368502.png",
+                                        "title": "Twitter",
+                                        "package_name": "com.twitter.android"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/80/9a/23/5306fecae523e3ab7e05421e9d8a05ba.png",
+                                        "title": "Pinterest",
+                                        "package_name": "com.pinterest"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/c9/ea/98/a77289a0e9926961e0f9a906dcdcedff.png",
+                                        "title": "Sao chép",
+                                        "type": "copy"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/ff/34/31/bb46caed68baaa706926ba5863ae8a69.png",
+                                        "title": "SMS",
+                                        "type": "share_via_sms"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/5d/86/6e/d6bbd6de0ca7c8757ac15af532f8a650.png",
+                                        "title": "Email",
+                                        "type": "share_via_email"
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/d9/3e/56/e1916e9624a1e7a6035000bf7f57fed9.png",
+                                        "title": "Thêm",
+                                        "type": "default_share"
+                                    }
+                                ]
+                            }
+                        },
+                        "forceContent": {
+                            "couponList": {
+                                "NY030106": {
+                                    "long_description": "Miễn phí giao nhanh TikiNOW, tối đa 39K cho đơn hàng từ 399K.\nChỉ áp dụng cho phương thức Giao Trong Ngày, 2H và 3H.\nMỗi khách hàng được sử dụng tối đa 1 lần",
+                                    "short_title": "Freeship TikiNOW"
+                                },
+                                "NY030101": {
+                                    "short_title": "Freeship TikiNOW 50K",
+                                    "icon_url": "https://salt.tikicdn.com/cache/128x128/ts/upload/92/ad/57/0d9a096885400b7b4752b67afdc72898.png",
+                                    "long_description": "Miễn phí giao nhanh TikiNOW, tối đa 50K cho tất cả đơn hàng.\nKhông áp dụng cho Sản phẩm là Rượu trên 15 độ.\nChỉ áp dụng cho phương thức Giao Trong Ngày, 2H và 3H.\nMỗi khách hàng được sử dụng tối đa 1 lần."
+                                }
+                            }
+                        },
+                        "ldpEvent": {
+                            "enabled": true,
+                            "data": {
+                                "name": "Gói thành viên đặc quyền - Astra Rewards",
+                                "description": "Gói thành viên đặc quyền - Astra Rewards",
+                                "url": "https://tiki.vn/astra-rewards",
+                                "image": {
+                                    "url": "https://salt.tikicdn.com/cache/w1440/ts/ta/0c/7a/e5/8537205de6e7d04fd82e6f2653f8d48f.png.webp"
+                                }
+                            }
+                        }
+                    },
+                    "itemQty": 0,
+                    "isTikier": false
+                },
+                "layout": {
+                    "topLabels": [],
+                    "headerKeywords": [
+                        {
+                            "keyword": "cây cam ngọt của tôi",
+                            "url": "https://tiki.vn/search?q=c%C3%A2y+cam+ng%E1%BB%8Dt+c%E1%BB%A7a+t%C3%B4i"
+                        },
+                        {
+                            "keyword": "suối nguồn",
+                            "url": "https://tiki.vn/search?q=su%E1%BB%91i+ngu%E1%BB%93n"
+                        },
+                        {
+                            "keyword": "trường ca achilles",
+                            "url": "https://tiki.vn/search?q=tr%C6%B0%E1%BB%9Dng+ca+achilles"
+                        },
+                        {
+                            "keyword": "nguyễn nhật ánh",
+                            "url": "https://tiki.vn/search?q=nguy%E1%BB%85n+nh%E1%BA%ADt+%C3%A1nh"
+                        },
+                        {
+                            "keyword": "bụi sao",
+                            "url": "https://tiki.vn/search?q=b%E1%BB%A5i+sao"
+                        },
+                        {
+                            "keyword": "dám bị ghét",
+                            "url": "https://tiki.vn/search?q=d%C3%A1m+b%E1%BB%8B+gh%C3%A9t"
+                        },
+                        {
+                            "keyword": "nhã nam offical",
+                            "url": "https://tiki.vn/search?q=nh%C3%A3+nam+offical"
+                        },
+                        {
+                            "keyword": "một thoáng ta rực rỡ ở nhân gian",
+                            "url": "https://tiki.vn/search?q=m%E1%BB%99t+tho%C3%A1ng+ta+r%E1%BB%B1c+r%E1%BB%A1+%E1%BB%9F+nh%C3%A2n+gian"
+                        },
+                        {
+                            "keyword": "nhà giả kim",
+                            "url": "https://tiki.vn/search?q=nh%C3%A0+gi%E1%BA%A3+kim"
+                        },
+                        {
+                            "keyword": "marc levy",
+                            "url": "https://tiki.vn/search?q=marc+levy"
+                        },
+                        {
+                            "keyword": "xa ngoài kia nơi loài tôm hát",
+                            "url": "https://tiki.vn/search?q=xa+ngo%C3%A0i+kia+n%C6%A1i+lo%C3%A0i+t%C3%B4m+h%C3%A1t"
+                        },
+                        {
+                            "keyword": "người đua diều",
+                            "url": "https://tiki.vn/search?q=ng%C6%B0%E1%BB%9Di+%C4%91ua+di%E1%BB%81u"
+                        },
+                        {
+                            "keyword": "nhã nam",
+                            "url": "https://tiki.vn/search?q=nh%C3%A3+nam"
+                        },
+                        {
+                            "keyword": "ngàn mặt trời rực rỡ",
+                            "url": "https://tiki.vn/search?q=ng%C3%A0n+m%E1%BA%B7t+tr%E1%BB%9Di+r%E1%BB%B1c+r%E1%BB%A1"
+                        },
+                        {
+                            "keyword": "ở tiệm bánh ngày mai",
+                            "url": "https://tiki.vn/search?q=%E1%BB%9F+ti%E1%BB%87m+b%C3%A1nh+ng%C3%A0y+mai"
+                        },
+                        {
+                            "keyword": "tiểu thuyết",
+                            "url": "https://tiki.vn/search?q=ti%E1%BB%83u+thuy%E1%BA%BFt"
+                        },
+                        {
+                            "keyword": "rừng na uy",
+                            "url": "https://tiki.vn/search?q=r%E1%BB%ABng+na+uy"
+                        },
+                        {
+                            "keyword": "haruki murakami",
+                            "url": "https://tiki.vn/search?q=haruki+murakami"
+                        },
+                        {
+                            "keyword": "trâm",
+                            "url": "https://tiki.vn/search?q=tr%C3%A2m"
+                        },
+                        {
+                            "keyword": "tặng hoa cho bách đồ",
+                            "url": "https://tiki.vn/search?q=t%E1%BA%B7ng+hoa+cho+b%C3%A1ch+%C4%91%E1%BB%93"
+                        }
+                    ],
+                    "campaignLogo": {
+                        "id": 41464,
+                        "title": "Tikinow",
+                        "content": "",
+                        "url": "https://tiki.vn/tikinow",
+                        "image_url": "https://salt.tikicdn.com/ts/banner/33/ba/89/54c02d2475983f93a024c0cd13f238e4.png",
+                        "thumbnail_url": "",
+                        "mobile_url": "https://salt.tikicdn.com/ts/banner/33/ba/89/54c02d2475983f93a024c0cd13f238e4.png"
+                    },
+                    "mainMenu": [],
+                    "loginModal": {
+                        "visible": false,
+                        "tab": null,
+                        "shouldCloseOnOverlayClick": false,
+                        "ref": "/"
+                    },
+                    "locationModal": {
+                        "visible": false
+                    },
+                    "userPhoneModal": {
+                        "visible": false
+                    },
+                    "otpModal": {
+                        "visible": false,
+                        "otpData": {}
+                    },
+                    "otpFailure": {},
+                    "forgotPasswordModal": {
+                        "visible": false
+                    },
+                    "cartNotification": {
+                        "visible": false
+                    },
+                    "build_version": "202212201259zEmYZSfjRF_zIV53F38J0",
+                    "logPageView": false
+                },
+                "product": {
+                    "addOnIds": {},
+                    "data": {
+                        "id": 76012203,
+                        "master_id": 76012203,
+                        "sku": "8462063362976",
+                        "name": "Cuộc Đời Là Một Tiểu Thuyết",
+                        "url_key": "cuoc-doi-la-mot-tieu-thuyet-p76012203",
+                        "url_path": "cuoc-doi-la-mot-tieu-thuyet-p76012203.html?spid=76012204",
+                        "short_url": "https://tiki.vn/product-p76012203.html?spid=76012204",
+                        "type": "simple",
+                        "book_cover": null,
+                        "short_description": "Với anh, mọi thứ đã được viết sẵnVới cô, mọi thứ đang đợi viết tiếp“Sáu tháng trước, ngày 12 tháng Tư năm 2010, con gái ba tuổi của tôi, Carrie Conway, đã bị bắt cóc trong lúc hai mẹ con đang chơi tr...",
+                        "price": 106000,
+                        "list_price": 140000,
+                        "original_price": 140000,
+                        "badges": [
+                            {
+                                "code": "new_pdp",
+                                "text": "v1"
+                            }
+                        ],
+                        "badges_new": [],
+                        "discount": 34000,
+                        "discount_rate": 24,
+                        "rating_average": 4.8,
+                        "review_count": 478,
+                        "review_text": "(478)",
+                        "favourite_count": 0,
+                        "thumbnail_url": "https://salt.tikicdn.com/cache/280x280/ts/product/9a/a3/6d/9d21cba3697470a92820052cd6a4f1dd.jpg",
+                        "has_ebook": false,
+                        "inventory_status": "available",
+                        "inventory_type": "instock",
+                        "productset_group_name": "Nhà Sách Tiki/Sách tiếng Việt/Sách văn học/Tiểu Thuyết",
+                        "is_fresh": false,
+                        "seller": null,
+                        "is_flower": false,
+                        "has_buynow": true,
+                        "is_gift_card": false,
+                        "salable_type": null,
+                        "data_version": 3300,
+                        "day_ago_created": 704,
+                        "all_time_quantity_sold": 2494,
+                        "meta_title": "",
+                        "meta_description": "",
+                        "meta_keywords": "",
+                        "is_baby_milk": false,
+                        "is_acoholic_drink": false,
+                        "description": "\u003cp\u003eVới anh, mọi thứ đã được viết sẵn\u003c/p\u003e\n\u003cp\u003eVới cô, mọi thứ đang đợi viết tiếp\u003cbr /\u003e\u003cbr /\u003e“Sáu tháng trước, ngày 12 tháng Tư năm 2010, con gái ba tuổi của tôi, Carrie Conway, đã bị bắt cóc trong lúc hai mẹ con đang chơi trốn tìm trong căn hộ nhà mình ở Williamsburg.”\u003cbr /\u003e\u003cbr /\u003eCâu chuyện của Flora Conway, nữ tiểu thuyết gia nổi tiếng sống kín đáo, đã bắt đầu như thế. Carrie đột ngột mất tích, không cách nào lý giải được. Cửa chính và các cửa sổ đều đóng kín, các camera giám sát trong tòa nhà không phát hiện điều khả nghi nào. Cuộc điều tra của cảnh sát không mang lại kết quả gì.\u003cbr /\u003eCùng thời điểm ấy, ở bờ kia Đại Tây Dương, một nhà văn với trái tim tan nát trốn tránh xã hội trong một ngôi nhà xập xệ, bế tắc với tiểu thuyết đang viết dở.\u003cbr /\u003eAnh là người duy nhất nắm giữ chìa khóa của bí ẩn. \u003cbr /\u003eVà Flora sẽ đánh bật anh.\u003cbr /\u003e\u003cbr /\u003eVới Cuộc đời là một tiểu thuyết, bạn sẽ bắt gặp một Guillaume Musso hoàn toàn mới, người dẫn bạn bước vào mê cung, dắt bạn đi theo mạch truyện ly kỳ bằng nguồn sức mạnh rút từ quyền năng của những cuốn sách và khát khao mãnh liệt sống cuộc đời của các nhân vật.\u003cbr /\u003e\u003cbr /\u003e“Guillaume Musso là một cao thủ phù phép, luôn biến hóa ra điều bất khả trong cuộc đời các nhân vật giữa lúc ta không ngờ tới.”\u003cbr /\u003e- Anne Michelet, Version Femina\u003cbr /\u003e\u003cbr /\u003e“Một câu chuyện tuyệt vời làm hài lòng cả độc giả sách trinh thám lẫn tín đồ văn chương. (…) Guillaume Musso, chắc chắn là nhà văn lớn và độc giả phi thường, trở lại với chủ đề nghề viết, nguồn cảm hứng, cuộc đời thực và tưởng tượng… một cách thật điêu luyện (…) Cuộc đời là một tiểu thuyết không khỏi khiến ta nghĩ tới Romain Gary.”\u003cbr /\u003e- Alain-Jean Robert, AFP\u003cbr /\u003e\u003cbr /\u003eTÁC GIẢ:\u003c/p\u003e\n\u003cp\u003eGuillaume Musso sinh năm 1974 tại Antibes, thị trấn nhỏ bên bờ Địa Trung Hải. Ngay từ năm mười tuổi, cậu bé Guillaume đã phải lòng văn chương và tuyên bố một ngày nào đó sẽ viết tiểu thuyết. Lớn lên, anh theo học ngành kinh tế rồi trở thành giáo viên sau khi tốt nghiệp, nhưng niềm đam mê thuở ban đầu vẫn tràn đầy. Năm 2001, tiểu thuyết đầu tay của anh ra đời và nhận được tín hiệu tốt từ giới phê bình. Tác phẩm thứ hai, Rồi sau đó, xuất bản năm 2004, đã gây ấn tượng mạnh và đưa tên tuổi Guillaume Musso đến với công chúng. Từ đó đến nay, anh đều đặn cho ra đời các tiểu thuyết mới và giành được thành công vang dội không chỉ tại Pháp mà còn trên khắp thế giới. Các tác phẩm của Guillaume Musso đã được dịch ra nhiều thứ tiếng và được chuyển thể thành phim.\u003cbr /\u003e\u003cbr /\u003eCác tác phẩm của Guillaume Musso đã được Nhã Nam xuất bản:\u003cbr /\u003e- Rồi sau đó\u003cbr /\u003e- Hãy cứu em\u003cbr /\u003e- Hẹn em ngày đó\u003cbr /\u003e- Bởi vì yêu\u003cbr /\u003e- Trở lại tìm nhau\u003cbr /\u003e- Nếu đời anh vắng em\u003cbr /\u003e- Cô gái trong trang sách\u003cbr /\u003e- Cuộc gọi từ thiên thần\u003cbr /\u003e- Bảy năm sau\u003cbr /\u003e- Ngày mai\u003cbr /\u003e- Central Park\u003cbr /\u003e- Giây phút này\u003cbr /\u003e- Cô gái Brooklyn\u003cbr /\u003e- Dưới một mái nhà ở Paris\u003cbr /\u003e- Cô gái và màn đêm\u003cbr /\u003e- Cuộc đời bí mật của các nhà văn\u003c/p\u003e\u003cp\u003eGiá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....\u003c/p\u003e",
+                        "images": [
+                            {
+                                "base_url": "https://salt.tikicdn.com/ts/product/9a/a3/6d/9d21cba3697470a92820052cd6a4f1dd.jpg",
+                                "is_gallery": true,
+                                "label": null,
+                                "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/9a/a3/6d/9d21cba3697470a92820052cd6a4f1dd.jpg",
+                                "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/9a/a3/6d/9d21cba3697470a92820052cd6a4f1dd.jpg",
+                                "position": null,
+                                "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/9a/a3/6d/9d21cba3697470a92820052cd6a4f1dd.jpg",
+                                "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/9a/a3/6d/9d21cba3697470a92820052cd6a4f1dd.jpg"
+                            }
+                        ],
+                        "warranty_policy": null,
+                        "authors": [
+                            {
+                                "id": 4414,
+                                "name": "Guillaume Musso",
+                                "slug": "guillaume-musso"
+                            }
+                        ],
+                        "current_seller": {
+                            "id": 1,
+                            "sku": "5716584755759",
+                            "name": "Tiki Trading",
+                            "link": "https://tiki.vn/cua-hang/tiki-trading",
+                            "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png",
+                            "price": 106000,
+                            "product_id": "76012204",
+                            "store_id": 40395,
+                            "is_best_store": false,
+                            "is_offline_installment_supported": null
+                        },
+                        "other_sellers": [
+                            {
+                                "id": 9988,
+                                "name": "AHABOOKS",
+                                "link": "https://tiki.vn/cua-hang/ahabooks",
+                                "logo": "7c/b8/e1/357f6a5d18da8daa4e9060a6b7eb9d5f.png",
+                                "price": 125350,
+                                "product_id": "76470584",
+                                "store_id": 9778
+                            },
+                            {
+                                "id": 16979,
+                                "name": "GOLD BOOKS",
+                                "link": "https://tiki.vn/cua-hang/gold-books",
+                                "logo": "e0/bc/1c/775bd91abeb111189af37957a216ef43.png",
+                                "price": 110600,
+                                "product_id": "77026627",
+                                "store_id": 16379
+                            },
+                            {
+                                "id": 1308,
+                                "name": "Tazano Official Store",
+                                "link": "https://tiki.vn/cua-hang/sachbanchay",
+                                "logo": "95/08/28/6d2a2db44eb4b71b91fb2a1d9d60d863.jpg",
+                                "price": 119000,
+                                "product_id": "86553017",
+                                "store_id": 1265
+                            },
+                            {
+                                "id": 670,
+                                "name": "Cá Chép Bookstore",
+                                "link": "https://tiki.vn/cua-hang/ca-chep-bookstore",
+                                "logo": "0a/89/1c/28dd476ede7a32391ad449d0f0c9c403.jpg",
+                                "price": 126000,
+                                "product_id": "94148453",
+                                "store_id": 633
+                            },
+                            {
+                                "id": 131234,
+                                "name": "An Nam Thư Quán",
+                                "link": "https://tiki.vn/cua-hang/an-nam-thu-quan",
+                                "logo": "57/40/9d/51e53495566e8fa6735c109e76939770.jpg",
+                                "price": 140000,
+                                "product_id": "112976232",
+                                "store_id": 121232
+                            },
+                            {
+                                "id": 156095,
+                                "name": "HaAnBooks",
+                                "link": "https://tiki.vn/cua-hang/haanbooks",
+                                "logo": "7c/47/26/2f2dda4cc240e94355778dbfc2b8d405.jpg",
+                                "price": 110000,
+                                "product_id": "114241579",
+                                "store_id": 143850
+                            },
+                            {
+                                "id": 34429,
+                                "name": "NewShop Official",
+                                "link": "https://tiki.vn/cua-hang/newshopvn",
+                                "logo": "fb/52/b0/7cb814343143d6e6baffeb58872333a5.jpg",
+                                "price": 119000,
+                                "product_id": "135231010",
+                                "store_id": 33717
+                            },
+                            {
+                                "id": 127989,
+                                "name": "Times Books",
+                                "link": "https://tiki.vn/cua-hang/times-books",
+                                "logo": "a6/11/12/d2b1e40937a3a9953075558b8a80ff2c.png",
+                                "price": 105999,
+                                "product_id": "139377400",
+                                "store_id": 118250
+                            },
+                            {
+                                "id": 60209,
+                                "name": "VBooks",
+                                "link": "https://tiki.vn/cua-hang/vbooks",
+                                "logo": "",
+                                "price": 140000,
+                                "product_id": "140888379",
+                                "store_id": 56771
+                            },
+                            {
+                                "id": 26874,
+                                "name": "Phương Đông Books",
+                                "link": "https://tiki.vn/cua-hang/phuong-dong-books",
+                                "logo": "2e/85/b7/e76104ae5f1beaf244f319e2f0d2d413.jpg",
+                                "price": 140000,
+                                "product_id": "153494418",
+                                "store_id": 26242
+                            },
+                            {
+                                "id": 96163,
+                                "name": "Zing Books",
+                                "link": "https://tiki.vn/cua-hang/zing-books",
+                                "logo": "",
+                                "price": 156000,
+                                "product_id": "170267545",
+                                "store_id": 89219
+                            },
+                            {
+                                "id": 126688,
+                                "name": "info book",
+                                "link": "https://tiki.vn/cua-hang/info-book",
+                                "logo": "66/49/ce/c528ff3a6e4022b080c1f8c6fe7bc541.jpg",
+                                "price": 119000,
+                                "product_id": "174376838",
+                                "store_id": 117060
+                            },
+                            {
+                                "id": 281062,
+                                "name": "Bamboo Books",
+                                "link": "https://tiki.vn/cua-hang/bamboo-books",
+                                "logo": "46/9a/b3/e4fbfd97e7607ea4d2ff8e9ad769121b.jpg",
+                                "price": 126000,
+                                "product_id": "184121892",
+                                "store_id": 268132
+                            },
+                            {
+                                "id": 97533,
+                                "name": "Nhà Sách Vĩnh Thụy",
+                                "link": "https://tiki.vn/cua-hang/nha-sach-vinh-thuy",
+                                "logo": "https://vcdn.tikicdn.com/ts/seller/19/f2/bd/8bda12adffb15edf1b3d8339b0238283.jpg",
+                                "price": 119000,
+                                "product_id": "199171337",
+                                "store_id": 90454
+                            },
+                            {
+                                "id": 295057,
+                                "name": "HỆ THỐNG NHÀ SÁCH ABC",
+                                "link": "https://tiki.vn/cua-hang/he-thong-nha-sach-abc",
+                                "logo": "https://vcdn.tikicdn.com/ts/seller/98/3d/ff/cec0ba0eaa575634616ab4605fccbe6d.jpg",
+                                "price": 119000,
+                                "product_id": "203477750",
+                                "store_id": 282399
+                            }
+                        ],
+                        "seller_specifications": [
+                            {
+                                "name": "Tiki hoàn tiền 111% nếu phát hiện hàng giả",
+                                "url": null,
+                                "value": null
+                            },
+                            {
+                                "name": "Cam kết hàng chính hiệu",
+                                "url": null,
+                                "value": null
+                            }
+                        ],
+                        "specifications": [
+                            {
+                                "name": "Thông tin chung",
+                                "attributes": [
+                                    {
+                                        "code": "publisher_vn",
+                                        "name": "Công ty phát hành",
+                                        "value": "Nhã Nam"
+                                    },
+                                    {
+                                        "code": "publication_date",
+                                        "name": "Ngày xuất bản",
+                                        "value": "2021-01-01 00:00:00"
+                                    },
+                                    {
+                                        "code": "dimensions",
+                                        "name": "Kích thước",
+                                        "value": "14 x 20.5 cm"
+                                    },
+                                    {
+                                        "code": "dich_gia",
+                                        "name": "Dịch Giả",
+                                        "value": "Danh Việt"
+                                    },
+                                    {
+                                        "code": "book_cover",
+                                        "name": "Loại bìa",
+                                        "value": "Bìa mềm"
+                                    },
+                                    {
+                                        "code": "number_of_page",
+                                        "name": "Số trang",
+                                        "value": "268"
+                                    },
+                                    {
+                                        "code": "manufacturer",
+                                        "name": "Nhà xuất bản",
+                                        "value": "Nhà Xuất Bản Hội Nhà Văn"
+                                    }
+                                ]
+                            }
+                        ],
+                        "price_comparison": {
+                            "sub_title": "Giá từ 105.999 ₫",
+                            "title": "15 nhà bán khác"
+                        },
+                        "product_links": [],
+                        "services_and_promotions": [],
+                        "promitions": [],
+                        "stock_item": {
+                            "max_sale_qty": 1000,
+                            "min_sale_qty": 1,
+                            "preorder_date": null,
+                            "qty": 1000
+                        },
+                        "quantity_sold": {
+                            "text": "Đã bán 2494",
+                            "value": 2494
+                        },
+                        "categories": {
+                            "id": 316,
+                            "name": "Sách tiếng Việt",
+                            "is_leaf": false
+                        },
+                        "breadcrumbs": [
+                            {
+                                "url": "/nha-sach-tiki/c8322",
+                                "name": "Nhà Sách Tiki",
+                                "category_id": 8322
+                            },
+                            {
+                                "url": "/sach-truyen-tieng-viet/c316",
+                                "name": "Sách tiếng Việt",
+                                "category_id": 316
+                            },
+                            {
+                                "url": "/sach-van-hoc/c839",
+                                "name": "Sách văn học",
+                                "category_id": 839
+                            },
+                            {
+                                "url": "/tieu-thuyet/c844",
+                                "name": "Tiểu Thuyết",
+                                "category_id": 844
+                            },
+                            {
+                                "url": "https://tiki.vn/cuoc-doi-la-mot-tieu-thuyet-p76012203.html",
+                                "name": "Cuộc Đời Là Một Tiểu Thuyết",
+                                "category_id": 0
+                            }
+                        ],
+                        "installment_info": null,
+                        "installment_info_v2": {
+                            "title": "Mua trước trả sau",
+                            "summary": "Lãi suất 0%",
+                            "redirect_url": "https://tiki.vn/mua-truoc-tra-sau/thanh-toan?src=pdp\u0026masterId=76012203\u0026pid=76012204\u0026seller_id=1\u0026qty=1",
+                            "details": null
+                        },
+                        "is_seller_in_chat_whitelist": false,
+                        "inventory": {
+                            "product_virtual_type": null,
+                            "fulfillment_type": "tiki_delivery"
+                        },
+                        "warranty_info": [],
+                        "return_and_exchange_policy": "Đổi trả trong\u003cbr\u003e\u003cb\u003e30 ngày\u003c/b\u003e\u003cbr\u003enếu sp lỗi",
+                        "best_price_guaranteed": true,
+                        "asa_cashback_widget": {
+                            "sep": 0,
+                            "rate": 302,
+                            "astra_convert_rate": 0,
+                            "text_color": "#402DA1",
+                            "short_description": "Tham gia các gói thành viên Astra Rewards cao cấp hơn để được nhiều ưu đãi hơn",
+                            "background_color": "#F2F0FE",
+                            "asa_plus_badge": "",
+                            "new_badge": "https://salt.tikicdn.com/ts/upload/43/01/71/d74d0e9e37a9bb14f35dcc0c816d2038.gif",
+                            "text": "Thưởng 2,12 ASA (≈ 640đ)",
+                            "icon": {
+                                "height": 16,
+                                "width": 13,
+                                "url": "https://salt.tikicdn.com/ts/upload/df/e2/b4/063c4d55ca380f818547f00f5175d39f.png"
+                            },
+                            "button": {
+                                "text": "Khám phá thêm",
+                                "url": "https://tiki.vn/sep/my-sep"
+                            },
+                            "amplitude": {
+                                "has_freeship_plus_benefit": true,
+                                "partner_rewards_amount": 0,
+                                "tiki_rewards_amount": 2.12,
+                                "total_rewards_amount": 2.12
+                            },
+                            "benefits": {
+                                "title": "Bạn là thành viên",
+                                "sub_title": "Thưởng 2,12 ASA",
+                                "benefit_text": "Điểm thưởng Astra dùng để làm gì?",
+                                "sub_icon": "https://salt.tikicdn.com/ts/upload/7a/bf/c4/6ae829cb4698d5badb38413c0dafe354.png",
+                                "type": "sep_required",
+                                "information_url": "https://tiki.vn/sep/my-sep",
+                                "icon_title": "https://salt.tikicdn.com/ts/ta/1b/13/fa/0d470315888a2551f4645632a99023a3.png",
+                                "list": [
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/31/1a/54/f4ad6056005c3c4b91d746cd5cd72e5a.png",
+                                        "text": "Đổi Astra lấy mã giảm giá \u0026 freeship",
+                                        "link": null
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/c9/a4/3f/ce4ec9a0e3c40aeb75a41ec4c181382f.png",
+                                        "text": "Astra có thể trao đổi mua bán sang Tiki Xu",
+                                        "link": null
+                                    },
+                                    {
+                                        "icon": "https://salt.tikicdn.com/ts/upload/4c/26/19/fc8035082d1c3cf77e23bd2529d93f1e.png",
+                                        "text": "Astra sinh lời khi bỏ ống Heo Vàng Astra",
+                                        "link": null
+                                    }
+                                ]
+                            },
+                            "non_login_url_path": "https://tiki.vn/sep"
+                        },
+                        "benefits": [
+                            {
+                                "icon": "https://salt.tikicdn.com/ts/upload/2c/48/44/720434869e103b03aaaf1a104d91ad25.png",
+                                "text": "Hoàn tiền\u003cbr\u003e\u003cb\u003e111%\u003c/b\u003e\u003cbr\u003enếu hàng giả"
+                            },
+                            {
+                                "icon": "https://salt.tikicdn.com/ts/upload/4b/a1/23/1606089d5423e5cba05e3820ad39708e.png",
+                                "text": "Mở hộp\u003cbr\u003ekiểm tra\u003cbr\u003enhận hàng"
+                            },
+                            {
+                                "icon": "https://salt.tikicdn.com/ts/upload/63/75/6a/144ada409519d72e2978ad2c61bc02a7.png",
+                                "text": "Đổi trả trong\u003cbr\u003e\u003cb\u003e30 ngày\u003c/b\u003e\u003cbr\u003enếu sp lỗi"
+                            }
+                        ]
+                    },
+                    "isLoadingFetchProductDetail": true,
+                    "comment_images": [],
+                    "additional_data": {},
+                    "frequentlyProducts": [],
+                    "promon": null,
+                    "deliveryZone": {},
+                    "deliveryTracking": {},
+                    "sellerDeliveryZone": {},
+                    "tikiFresh": {
+                        "loading": false
+                    },
+                    "productGiftData": [],
+                    "isCoupon": false,
+                    "savedCoupons": {},
+                    "customerReviews": {
+                        "loading": false,
+                        "data": [],
+                        "paging": {},
+                        "ratingAverage": null,
+                        "reviewsCount": null,
+                        "stars": {},
+                        "filter": [],
+                        "filterStar": []
+                    },
+                    "likedProducts": {},
+                    "couponData": {},
+                    "configReview": {},
+                    "sellerWidget": {},
+                    "isFollowedOfSeller": false,
+                    "personalWidget": {},
+                    "sellers": {
+                        "loading": true
+                    },
+                    "externalPrices": {
+                        "loading": true
+                    },
+                    "isLoadedWidgets": false,
+                    "isRecallClient": false,
+                    "galleryModal": {
+                        "visible": false,
+                        "images": [],
+                        "initSlideIndex": 0
+                    },
+                    "shorten_link": "",
+                    "asaCouponData": {},
+                    "responseSubmitReview": {},
+                    "isDataLoading": false,
+                    "bundleDeal": null,
+                    "comboDeal": null,
+                    "banner_product_detail_native_banner": {
+                        "data": []
+                    },
+                    "banner_product_detail_right_banner": {
+                        "data": []
+                    },
+                    "productType": "NORMAL",
+                    "isDataPreSet": false,
+                    "lastProductId": null,
+                    "reviewData": {
+                        "stars": {
+                            "1": {
+                                "count": 4,
+                                "percent": 1
+                            },
+                            "2": {
+                                "count": 2,
+                                "percent": 1
+                            },
+                            "3": {
+                                "count": 12,
+                                "percent": 2
+                            },
+                            "4": {
+                                "count": 43,
+                                "percent": 9
+                            },
+                            "5": {
+                                "count": 417,
+                                "percent": 87
+                            }
+                        },
+                        "rating_average": 4.8,
+                        "reviews_count": 478,
+                        "review_photo": {
+                            "total": 87,
+                            "total_photo": 119
+                        },
+                        "data": [
+                            {
+                                "id": 13652323,
+                                "title": "Cực kì hài lòng",
+                                "content": "Ngòi bút là sự dung hoà của Stephen King \u0026 Marc Levy. Tâm lý xã hội, ngôn tình, giả tưởng kỳ ảo, trinh thám gay cấn được cài cắm, lồng ghép, đan xen rất hài hoà, hợp lý. Phải công nhận Musso Guillaume viết rất đều \u0026 chắc tay. Không nghi ngờ gì nữa, đây lại là 1 tiểu thuyết trinh thám lãng mạn rất hay của Musso.",
+                                "status": "approved",
+                                "thank_count": 6,
+                                "score": 0.01627642,
+                                "new_score": 0.13851513,
+                                "customer_id": 24304082,
+                                "comment_count": 2,
+                                "rating": 5,
+                                "images": [
+                                    {
+                                        "id": 2852003,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/ac/17/b4/c65d6d14c9222dd43ffe60ec2e30cc19.jpg",
+                                        "status": "approved"
+                                    },
+                                    {
+                                        "id": 2852004,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/fd/bc/bd/ee2fdee4da6c668fb3142854e6697945.jpg",
+                                        "status": "approved"
+                                    },
+                                    {
+                                        "id": 2852005,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/b0/d7/f8/f516e66d8435bd6ad33182bb26f62e56.jpg",
+                                        "status": "approved"
+                                    }
+                                ],
+                                "thanked": false,
+                                "created_at": 1638797768,
+                                "created_by": {
+                                    "id": 24304082,
+                                    "name": "Phạm Ngọc Hoàng",
+                                    "full_name": "Phạm Ngọc Hoàng",
+                                    "region": null,
+                                    "avatar_url": "https://salt.tikicdn.com/cache/256x256/ts/avatar/0a/34/af/a58acfe151196e10fe0f8669fd1a62ec.png",
+                                    "created_time": "2021-10-20 17:04:58",
+                                    "group_id": 8,
+                                    "purchased": true,
+                                    "purchased_at": 1638604602,
+                                    "contribute_info": {
+                                        "id": 24304082,
+                                        "name": "Phạm Ngọc Hoàng",
+                                        "avatar": "https://salt.tikicdn.com/cache/256x256/ts/avatar/0a/34/af/a58acfe151196e10fe0f8669fd1a62ec.png",
+                                        "summary": {
+                                            "joined_time": "Đã tham gia 1 năm",
+                                            "total_review": 146,
+                                            "total_thank": 381
+                                        }
+                                    }
+                                },
+                                "suggestions": [],
+                                "attributes": [
+                                    "Mua từ nhà bán Tiki Trading"
+                                ],
+                                "product_attributes": [],
+                                "spid": 76012204,
+                                "is_photo": true,
+                                "seller": {
+                                    "id": 1,
+                                    "name": "Tiki Trading",
+                                    "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+                                },
+                                "product_id": 76012203,
+                                "timeline": {
+                                    "review_created_date": "2021-12-06 20:36:08",
+                                    "delivery_date": "2021-12-05 10:08:13",
+                                    "current_date": "2022-12-19 20:25:04",
+                                    "content": "Đã dùng 1 ngày",
+                                    "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+                                },
+                                "comments": [
+                                    {
+                                        "id": 2372222,
+                                        "review_id": 13652323,
+                                        "commentator": "customer",
+                                        "customer_id": 24304082,
+                                        "fullname": "Phạm Ngọc Hoàng",
+                                        "avatar_url": "https://salt.tikicdn.com/cache/256x256/ts/avatar/0a/34/af/a58acfe151196e10fe0f8669fd1a62ec.png",
+                                        "content": "Có Ahihi nha",
+                                        "score": 0,
+                                        "create_at": 1653067156,
+                                        "badge": "https://salt.tikicdn.com/ts/reviews/1a/c6/8e/aed2b9016c8a2840ea0d9268605c8d3c.png",
+                                        "status": 2,
+                                        "is_reported": false
+                                    },
+                                    {
+                                        "id": 2214226,
+                                        "review_id": 13652323,
+                                        "commentator": "customer",
+                                        "customer_id": 202970,
+                                        "fullname": "Chị Mị ",
+                                        "avatar_url": "https://tiki.vn/assets/img/avatar.png",
+                                        "content": "Có ahihi sách sau khi đọc hong bạn ơi :)",
+                                        "score": 0,
+                                        "create_at": 1648188582,
+                                        "badge": "",
+                                        "status": 2,
+                                        "is_reported": false
+                                    }
+                                ],
+                                "vote_attributes": {
+                                    "agree": [],
+                                    "disagree": []
+                                }
+                            },
+                            {
+                                "id": 7983758,
+                                "title": "Cực kì hài lòng",
+                                "content": "Rất thích tác giả Musso nên khi ra cuốn này mình đã mua về. Tiki giao hàng nhanh, shipper thân thiện, rất hài lòng.",
+                                "status": "approved",
+                                "thank_count": 2,
+                                "score": 0.01490137,
+                                "new_score": 0.12052766,
+                                "customer_id": 8391901,
+                                "comment_count": 0,
+                                "rating": 5,
+                                "images": [
+                                    {
+                                        "id": 1631718,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/d7/fb/f3/5845ab8abd8abb986947ba0735622311.jpg",
+                                        "status": "approved"
+                                    },
+                                    {
+                                        "id": 1631719,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/ff/6e/aa/cb1cfca3a82b94cc5db1acc15a7a86ab.jpg",
+                                        "status": "approved"
+                                    },
+                                    {
+                                        "id": 1631720,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/8a/dd/de/1b261db8bdcae5d5d94b272d6abe92e5.jpg",
+                                        "status": "approved"
+                                    },
+                                    {
+                                        "id": 1631721,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/f8/f6/1e/4179778a4ae11bad90a9f446a229dbe8.jpg",
+                                        "status": "approved"
+                                    },
+                                    {
+                                        "id": 1631722,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/cc/6d/f5/1d19a66d6d9a0e004fba2e2a9ecad9a6.jpg",
+                                        "status": "approved"
+                                    }
+                                ],
+                                "thanked": false,
+                                "created_at": 1614244061,
+                                "created_by": {
+                                    "id": 8391901,
+                                    "name": "Nhái Ú",
+                                    "full_name": "Nhái Ú",
+                                    "region": null,
+                                    "avatar_url": "https://s120.avatar.talk.zdn.vn/7/a/4/8/50/120/46280e21d63763ae21474c5a4899c083.jpg",
+                                    "created_time": "2018-10-12 13:24:07",
+                                    "group_id": 8,
+                                    "purchased": true,
+                                    "purchased_at": 1614147174,
+                                    "contribute_info": {
+                                        "id": 8391901,
+                                        "name": "Nhái Ú",
+                                        "avatar": "https://s120.avatar.talk.zdn.vn/7/a/4/8/50/120/46280e21d63763ae21474c5a4899c083.jpg",
+                                        "summary": {
+                                            "joined_time": "Đã tham gia 4 năm",
+                                            "total_review": 284,
+                                            "total_thank": 16
+                                        }
+                                    }
+                                },
+                                "suggestions": [],
+                                "attributes": [
+                                    "Mua từ nhà bán Tiki Trading"
+                                ],
+                                "product_attributes": [],
+                                "spid": 76012204,
+                                "is_photo": true,
+                                "seller": {
+                                    "id": 1,
+                                    "name": "Tiki Trading",
+                                    "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+                                },
+                                "product_id": 76012203,
+                                "timeline": {
+                                    "review_created_date": "2021-02-25 16:07:41",
+                                    "delivery_date": "2021-02-25 10:39:18",
+                                    "current_date": "2022-12-19 20:25:04",
+                                    "content": "Đã dùng 5 giờ",
+                                    "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 5 giờ."
+                                },
+                                "comments": [],
+                                "vote_attributes": {
+                                    "agree": [],
+                                    "disagree": []
+                                }
+                            },
+                            {
+                                "id": 8196181,
+                                "title": "Cực kì hài lòng",
+                                "content": "Tác phẩm này có thể gọi là tiểu thuyết trong tiểu thuyết. Là một tác phẩm rất hay và nhiều tình tiết bất ngờ, lẫn lộn giữa thế giới hư cấu và đời thực, nếu bạn đọc bằng cả trái tim thì sẽ cảm thấy đây là một quyển sách đẹp.",
+                                "status": "approved",
+                                "thank_count": 7,
+                                "score": 0.00664497,
+                                "new_score": 0.12884548,
+                                "customer_id": 17403904,
+                                "comment_count": 0,
+                                "rating": 5,
+                                "images": [
+                                    {
+                                        "id": 1664136,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/91/ce/c9/0942fcc620ccdc11ebece00eaff63bfe.jpg",
+                                        "status": "approved"
+                                    },
+                                    {
+                                        "id": 1664137,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/b7/cc/3d/3fad6302a39b7c63766b76556e5a71c6.jpg",
+                                        "status": "approved"
+                                    }
+                                ],
+                                "thanked": false,
+                                "created_at": 1614950721,
+                                "created_by": {
+                                    "id": 17403904,
+                                    "name": "Huynh Hong Anh",
+                                    "full_name": "Huynh Hong Anh",
+                                    "region": null,
+                                    "avatar_url": "//tiki.vn/assets/img/avatar.png",
+                                    "created_time": "2020-05-22 22:31:24",
+                                    "group_id": 8,
+                                    "purchased": true,
+                                    "purchased_at": 1613902736,
+                                    "contribute_info": {
+                                        "id": 17403904,
+                                        "name": "Huynh Hong Anh",
+                                        "avatar": "//tiki.vn/assets/img/avatar.png",
+                                        "summary": {
+                                            "joined_time": "Đã tham gia 3 năm",
+                                            "total_review": 38,
+                                            "total_thank": 22
+                                        }
+                                    }
+                                },
+                                "suggestions": [],
+                                "attributes": [
+                                    "Mua từ nhà bán Tiki Trading"
+                                ],
+                                "product_attributes": [],
+                                "spid": 76012204,
+                                "is_photo": true,
+                                "seller": {
+                                    "id": 1,
+                                    "name": "Tiki Trading",
+                                    "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+                                },
+                                "product_id": 76012203,
+                                "timeline": {
+                                    "review_created_date": "2021-03-05 20:25:21",
+                                    "delivery_date": "2021-02-27 15:08:38",
+                                    "current_date": "2022-12-19 20:25:04",
+                                    "content": "Đã dùng 6 ngày",
+                                    "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 6 ngày."
+                                },
+                                "comments": [],
+                                "vote_attributes": {
+                                    "agree": [],
+                                    "disagree": []
+                                }
+                            },
+                            {
+                                "id": 11518516,
+                                "title": "Cực kì hài lòng",
+                                "content": "Phía sau một tác phẩm thành danh luôn chứa đựng một bí mật mà người giữ chìa khóa để mở toang cánh cửa mà không ai khác chính là tác giả. Họ cho phép độc giả bước vào những cuộc đời song song khác của họ với đầy đủ dư vị cảm xúc hỉ nộ ái ố.\n\nCuộc đời là một tiểu thuyết phần nào làm thỏa sự tò mò nơi độc giả khi hiểu thêm về công việc viết lách và những cuộc đời hiện sinh bằng con chữ với câu hỏi đặt ra rằng: Liệu cuộc đời là một quyển tiểu thuyết hay tiểu thuyết chính là cuộc đời?",
+                                "status": "approved",
+                                "thank_count": 0,
+                                "score": 0.04195511,
+                                "new_score": 0.13104414,
+                                "customer_id": 305669,
+                                "comment_count": 0,
+                                "rating": 5,
+                                "images": [
+                                    {
+                                        "id": 2552874,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/df/b0/46/5edce6cd7a1433bf661b0532ecb61d1d.jpg",
+                                        "status": "approved"
+                                    }
+                                ],
+                                "thanked": false,
+                                "created_at": 1627633069,
+                                "created_by": {
+                                    "id": 305669,
+                                    "name": "LA THANH THẢO",
+                                    "full_name": "LA THANH THẢO",
+                                    "region": null,
+                                    "avatar_url": "//tiki.vn/assets/img/avatar.png",
+                                    "created_time": "2014-03-12 20:34:38",
+                                    "purchased": true,
+                                    "purchased_at": 1627455381,
+                                    "contribute_info": {
+                                        "id": 305669,
+                                        "name": "LA THANH THẢO",
+                                        "avatar": "//tiki.vn/assets/img/avatar.png",
+                                        "summary": {
+                                            "joined_time": "Đã tham gia 9 năm",
+                                            "total_review": 6,
+                                            "total_thank": 1
+                                        }
+                                    }
+                                },
+                                "suggestions": [
+                                    "Đóng gói tốt",
+                                    "Giao hàng nhanh",
+                                    "Nhà bán phục vụ tốt"
+                                ],
+                                "attributes": [
+                                    "Mua từ nhà bán Tiki Trading"
+                                ],
+                                "product_attributes": [],
+                                "spid": 76012204,
+                                "is_photo": true,
+                                "seller": {
+                                    "id": 1,
+                                    "name": "Tiki Trading",
+                                    "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+                                },
+                                "product_id": 76012203,
+                                "timeline": {
+                                    "review_created_date": "2021-07-30 15:17:49",
+                                    "delivery_date": "2021-07-29 11:23:30",
+                                    "current_date": "2022-12-19 20:25:04",
+                                    "content": "Đã dùng 1 ngày",
+                                    "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 1 ngày."
+                                },
+                                "comments": [],
+                                "vote_attributes": {
+                                    "agree": [],
+                                    "disagree": []
+                                }
+                            },
+                            {
+                                "id": 9704193,
+                                "title": "Cực kì hài lòng",
+                                "content": "Một tiểu thuyết gia nổi tiếng đang chìm vào nỗi đau con gái mất tích, phát hiện ra mình có thể chỉ là một nhân vật trong một cuốn tiểu thuyết. Vì muốn gặp lại con gái, cô buộc phải tìm cách gặp tác giả của câu chuyện này. Phía bên kia màn hình, một tiểu thuyết gia khác cũng đang chìm vào nỗi đau bởi cuộc hôn nhân tan vỡ và mất quyền nuôi con. \nNhân vật trong tiểu thuyết và tác giả sẽ hợp tác như thế nào để giải quyết vấn đề của mình?\nNếu bạn nghĩ câu chuyện theo hướng đó, bạn nhầm :))). Bởi câu chuyện sẽ không theo hướng logic thông thường với những cú twist ở phần cuối khiến ta ngỡ ngàng.",
+                                "status": "approved",
+                                "thank_count": 3,
+                                "score": 0.01557988,
+                                "new_score": 0.13048539,
+                                "customer_id": 291719,
+                                "comment_count": 0,
+                                "rating": 5,
+                                "images": [
+                                    {
+                                        "id": 2449954,
+                                        "full_path": "https://salt.tikicdn.com/ts/review/cb/87/91/8d39c1c654f793fe83fd13b0de58e8a1.jpg",
+                                        "status": "approved"
+                                    }
+                                ],
+                                "thanked": false,
+                                "created_at": 1620957957,
+                                "created_by": {
+                                    "id": 291719,
+                                    "name": "Nguyễn Thị Thu Thúy",
+                                    "full_name": "Nguyễn Thị Thu Thúy",
+                                    "region": null,
+                                    "avatar_url": "//tiki.vn/assets/img/avatar.png",
+                                    "created_time": "2014-02-24 16:35:23",
+                                    "purchased": true,
+                                    "purchased_at": 1613829349,
+                                    "rank": 5,
+                                    "badge": "Bút mới nổi",
+                                    "badge_icon": "https://vcdn.tikicdn.com/assets/img/review-badge/badge-5.png",
+                                    "contribute_info": {
+                                        "id": 291719,
+                                        "name": "Nguyễn Thị Thu Thúy",
+                                        "avatar": "//tiki.vn/assets/img/avatar.png",
+                                        "summary": {
+                                            "joined_time": "Đã tham gia 9 năm",
+                                            "total_review": 272,
+                                            "total_thank": 223
+                                        }
+                                    }
+                                },
+                                "suggestions": [],
+                                "attributes": [
+                                    "Mua từ nhà bán Tiki Trading"
+                                ],
+                                "product_attributes": [],
+                                "spid": 76012204,
+                                "is_photo": true,
+                                "seller": {
+                                    "id": 1,
+                                    "name": "Tiki Trading",
+                                    "logo": "https://vcdn.tikicdn.com/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png"
+                                },
+                                "product_id": 76012203,
+                                "timeline": {
+                                    "review_created_date": "2021-05-14 09:05:57",
+                                    "delivery_date": "2021-02-23 14:59:05",
+                                    "current_date": "2022-12-19 20:25:04",
+                                    "content": "Đã dùng 3 tháng",
+                                    "explain": "Khi viết đánh giá, khách hàng đã dùng sản phẩm 3 tháng."
+                                },
+                                "comments": [],
+                                "vote_attributes": {
+                                    "agree": [],
+                                    "disagree": []
+                                }
+                            }
+                        ],
+                        "paging": {
+                            "total": 478,
+                            "per_page": 5,
+                            "current_page": 1,
+                            "last_page": 96,
+                            "from": 1,
+                            "to": 5
+                        },
+                        "sort_options": [
+                            [
+                                {
+                                    "label": "Hữu ích",
+                                    "value": "score|desc"
+                                },
+                                {
+                                    "label": "Mới nhất",
+                                    "value": "id|desc"
+                                },
+                                {
+                                    "label": "Có hình ảnh",
+                                    "value": "has_image"
+                                }
+                            ],
+                            [
+                                {
+                                    "label": "Tất cả khách hàng",
+                                    "value": "customer|all"
+                                },
+                                {
+                                    "label": "Khách đã mua hàng",
+                                    "value": "bought"
+                                }
+                            ],
+                            [
+                                {
+                                    "label": "Tất cả sao",
+                                    "value": "stars|all"
+                                },
+                                {
+                                    "label": "5 sao",
+                                    "value": "stars|5"
+                                },
+                                {
+                                    "label": "4 sao",
+                                    "value": "stars|4"
+                                },
+                                {
+                                    "label": "3 sao",
+                                    "value": "stars|3"
+                                },
+                                {
+                                    "label": "2 sao",
+                                    "value": "stars|2"
+                                },
+                                {
+                                    "label": "1 sao",
+                                    "value": "stars|1"
+                                },
+                                {
+                                    "label": "Hài lòng",
+                                    "value": "stars|4|5"
+                                },
+                                {
+                                    "label": "Chưa hài lòng",
+                                    "value": "stars|1|2|3"
+                                }
+                            ]
+                        ],
+                        "exclude_image": false,
+                        "attribute_vote_summary": []
+                    }
+                },
+                "common": {
+                    "isShowModal": {
+                        "signIn": false,
+                        "singUp": false,
+                        "search": false
+                    },
+                    "keyword": "",
+                    "searchModalResults": {
+                        "data": [
+                            [],
+                            []
+                        ],
+                        "status": "ready"
+                    },
+                    "searchResults": {
+                        "data": [],
+                        "status": "ready"
+                    },
+                    "toast": {
+                        "type": "success",
+                        "isShow": false,
+                        "content": ""
+                    }
+                },
+                "home": {
+                    "iconWidgets": [],
+                    "calloutBanner": {},
+                    "flashDealExpiredTime": "",
+                    "eventDealData": [
+                        {
+                            "product": {
+                                "id": -1
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": -1
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": -1
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": -1
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": -1
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": -1
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": -1
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": -1
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": -1
+                            }
+                        },
+                        {
+                            "product": {
+                                "id": -1
+                            }
+                        }
+                    ],
+                    "commonResults": {
+                        "destinations1": [],
+                        "destinations2": [],
+                        "productGroups1": [],
+                        "productGroups2": [],
+                        "status": "loading"
+                    },
+                    "personalWidget": {}
+                },
+                "landingPage": {
+                    "commonResults": {
+                        "country": {},
+                        "destinations1": [],
+                        "productGroups": [],
+                        "destinations2": [],
+                        "status": "loading"
+                    }
+                },
+                "checkout": {
+                    "checkoutAddress": [],
+                    "addressForm": {
+                        "type": "create",
+                        "data": {},
+                        "isShow": false
+                    },
+                    "isLoading": false,
+                    "isFetching": true,
+                    "cartInfo": {},
+                    "installationPackage": {},
+                    "asGiftData": {},
+                    "paymentPromotion": {},
+                    "addCardResponse": {},
+                    "paymentBadges": {},
+                    "snackBar": {
+                        "isVisible": false,
+                        "message": ""
+                    },
+                    "errorDialog": {
+                        "isOpen": false,
+                        "message": "",
+                        "shouldReloadPage": false
+                    },
+                    "repaymentInfo": {
+                        "orderInfo": {},
+                        "paymentInfo": {}
+                    },
+                    "toast": {
+                        "type": "",
+                        "isShow": false,
+                        "content": ""
+                    },
+                    "sheduleNote": "",
+                    "responsePageOrderInfo": {},
+                    "leaveAtDoorState": {},
+                    "lastedTaxInfo": {},
+                    "promotionConditions": {},
+                    "vnPayBankList": [],
+                    "tikiNgonNote": ""
+                },
+                "directory": {
+                    "regions": [],
+                    "districts": [],
+                    "wards": []
+                },
+                "sellerStore": {
+                    "collections": {
+                        "data": [],
+                        "paging": {}
+                    },
+                    "seller": {},
+                    "sellerStoreInfo": {},
+                    "products": {},
+                    "template": {},
+                    "score": {},
+                    "couponList": [],
+                    "currentTab": "store",
+                    "widgets": {},
+                    "searchQuery": {},
+                    "categoriesLevel1": [],
+                    "categories": [],
+                    "categoriesStoreTab": {},
+                    "selectedCollection": null,
+                    "productList": {
+                        "data": [],
+                        "page": {}
+                    },
+                    "followData": {},
+                    "flashSaleData": {},
+                    "followCampaign": null
+                },
+                "installment": {
+                    "installmentPlanParams": {},
+                    "installmentPaymentParams": {},
+                    "installmentPaymentInfo": {},
+                    "productShortInfo": {},
+                    "installmentPlanData": {},
+                    "installmentPlanMessage": "",
+                    "snackBar": {
+                        "isVisible": false,
+                        "message": ""
+                    },
+                    "errorDialog": {
+                        "isOpen": false,
+                        "message": "",
+                        "shouldReloadPage": false
+                    },
+                    "isLoading": false,
+                    "isFetching": true,
+                    "scheduleNote": ""
+                },
+                "account": {
+                    "notifications": {},
+                    "reviews": {},
+                    "wishList": {},
+                    "orderTrackingDetail": {},
+                    "isLoading": false,
+                    "dialog": {
+                        "isImported": false,
+                        "isOpen": false,
+                        "type": "info",
+                        "style": {}
+                    },
+                    "customerPaymentInfo": {},
+                    "ogImageByOrder": "",
+                    "astraHub": {},
+                    "astraTransactions": {}
+                },
+                "pushInApp": {
+                    "poll": null,
+                    "coupon": {}
+                },
+                "myCoupon": {
+                    "loading": false,
+                    "couponData": {}
+                },
+                "totalCoupon": {
+                    "loading": false,
+                    "total": 0,
+                    "errors": null
+                },
+                "collection": {
+                    "products": [],
+                    "currentPage": 1,
+                    "totalProducts": 0,
+                    "collectionName": "",
+                    "description": "",
+                    "hasMore": false
+                },
+                "topTrending": {
+                    "status": "initial",
+                    "metaData": {},
+                    "products": [],
+                    "tabs": [],
+                    "params": [],
+                    "isLastPage": true
+                },
+                "cart": {
+                    "coupons": {},
+                    "sellerSuggestions": {},
+                    "cartData": {},
+                    "loading": true,
+                    "sellerCoupons": {},
+                    "giftInclude": {},
+                    "messArr": [],
+                    "eligibleCoupons": {},
+                    "isEnableIntendedCart": "",
+                    "intendedCart": {},
+                    "intendedCartSummary": {},
+                    "selectedAllIntendedCart": "",
+                    "dialog": {
+                        "isShow": false,
+                        "actionHanlder": {
+                            "actionText": "",
+                            "onActionHandler": {}
+                        },
+                        "item": {},
+                        "content": {},
+                        "closeText": ""
+                    },
+                    "invalidIntendedCartItem": {},
+                    "noticeMessage": [],
+                    "comboDiscount": {}
+                },
+                "billing": {
+                    "banners": [],
+                    "home": {
+                        "loading": true,
+                        "services": []
+                    },
+                    "section": {
+                        "loading": true,
+                        "sections": []
+                    },
+                    "coupon": {
+                        "loading": true,
+                        "coupon": {}
+                    },
+                    "navigation": {
+                        "navigation": [],
+                        "code": "",
+                        "navigationLoading": true
+                    },
+                    "homeTrackers": {
+                        "loading": false,
+                        "trackers": []
+                    },
+                    "serviceDetail": {
+                        "id": 0,
+                        "name": "",
+                        "title": "",
+                        "configs": [],
+                        "code": "",
+                        "navigation": []
+                    },
+                    "configLoading": true,
+                    "billTracker": {
+                        "data": [],
+                        "loading": true
+                    },
+                    "billDetail": {
+                        "loading": true,
+                        "bill": {},
+                        "billTracker": {},
+                        "useQuickpayment": false,
+                        "errorMessage": null
+                    },
+                    "promotion": {
+                        "loading": true,
+                        "showPromotion": false,
+                        "promotion": {}
+                    },
+                    "isBackScreen": false,
+                    "packageData": {
+                        "amount": 0
+                    }
+                },
+                "review": {
+                    "configReview": {},
+                    "reviewsWaiting": {
+                        "loading": false,
+                        "data": [],
+                        "paging": {}
+                    },
+                    "reviews": {
+                        "loading": false
+                    },
+                    "reviewDetail": {},
+                    "reviewsPromotion": [],
+                    "commentImages": [],
+                    "mapReviewsPromotion": {},
+                    "responseSubmitReview": {},
+                    "reviewsWithoutImage": {},
+                    "recentReviewed": {},
+                    "reviewsUpgrade": {
+                        "loading": false,
+                        "data": [],
+                        "paging": {}
+                    },
+                    "myReviews": {
+                        "loading": false,
+                        "data": [],
+                        "paging": {}
+                    },
+                    "contribute": {},
+                    "updateReview": {},
+                    "productDetail": {
+                        "isLoading": true,
+                        "data": {},
+                        "isNotFoundProductDetailClient": false
+                    },
+                    "isLoadingPageSubmitReview": true,
+                    "isLoadDoneReviewsPromotion": false,
+                    "dataMultiReviews": {
+                        "data": [],
+                        "isLoading": true
+                    }
+                },
+                "gotadi": {
+                    "url": ""
+                },
+                "vas": {
+                    "isWhitelist": null,
+                    "isWholesale": null,
+                    "commonTopup": {
+                        "data": [],
+                        "latest": {}
+                    },
+                    "vasCompleted": {
+                        "data": {},
+                        "loading": true,
+                        "failure": false
+                    },
+                    "savedList": [],
+                    "cards": {
+                        "cards": [],
+                        "paging": {},
+                        "loading": true,
+                        "total_new": 0,
+                        "total_used": 0,
+                        "order_date": ""
+                    },
+                    "banners": {},
+                    "maintenance": {
+                        "loading": true,
+                        "error": false
+                    }
+                },
+                "dsb": {
+                    "orderDetail": {},
+                    "isLoading": true,
+                    "isFailed": false,
+                    "vasCompleted": {},
+                    "billingCompleted": {},
+                    "requestLoading": true,
+                    "requestFailure": false
+                },
+                "fp": {
+                    "orderDetail": {},
+                    "isLoading": true,
+                    "vasCompleted": {},
+                    "billingCompleted": {},
+                    "requestLoading": true,
+                    "requestFailure": false
+                },
+                "brickCollection": {
+                    "metaData": {},
+                    "seo": {},
+                    "data": [],
+                    "page": 0,
+                    "isLastPage": false
+                },
+                "productListing": {
+                    "status": "initial",
+                    "metaData": {},
+                    "products": [],
+                    "filters": [],
+                    "params": [],
+                    "isLastPage": true
+                },
+                "bus": {
+                    "locations": {
+                        "provinces": [],
+                        "districts": []
+                    },
+                    "routes": [],
+                    "searchPage": 0,
+                    "routesLoading": true,
+                    "recentSearchList": {},
+                    "suggestionList": [],
+                    "filterConfig": {},
+                    "filterLoading": true,
+                    "seatQuantity": 0,
+                    "tripInfo": {},
+                    "tripInfoError": "",
+                    "busAmenities": [],
+                    "companyImages": [],
+                    "errorModal": null,
+                    "bookingDetail": {},
+                    "tripPolicy": null,
+                    "busOrderDetail": {},
+                    "orderDetailLoading": true,
+                    "orderDetailFailure": false
+                },
+                "dsbOrder": {
+                    "isLoading": true,
+                    "failure": false,
+                    "payload": {},
+                    "banner": {}
+                },
+                "fpOrder": {
+                    "isLoading": true,
+                    "failure": false,
+                    "payload": {},
+                    "banner": {}
+                },
+                "insurance": {
+                    "provider": {},
+                    "packageInfo": {},
+                    "formSchema": null,
+                    "questions": {},
+                    "booking": {},
+                    "getOrderLoading": true,
+                    "orderDetail": {},
+                    "banner": {}
+                },
+                "insurtech": {
+                    "filterPrices": {},
+                    "filteredCollection": {},
+                    "filteredCollectionLoading": true,
+                    "product": null,
+                    "profile": {},
+                    "applicationForm": {
+                        "current_step": 1,
+                        "total_step": null
+                    },
+                    "review": null,
+                    "policies": {},
+                    "policyDetail": null,
+                    "productDetailsForms": null,
+                    "policyOverview": {},
+                    "policyEditInfo": {},
+                    "toc": null,
+                    "claims": null,
+                    "claimReview": null,
+                    "claimDocuments": null,
+                    "updateRefund": {},
+                    "claimToc": null,
+                    "transactions": {},
+                    "transactionDetail": {},
+                    "userKYC": {},
+                    "claimInsurers": {},
+                    "claimActions": {},
+                    "claimIssuedPeople": {},
+                    "claimTypes": {},
+                    "claimPolicies": {},
+                    "claimInput": {},
+                    "claimNote": {},
+                    "chatConfig": {
+                        "isExist": false
+                    },
+                    "policy_issued": false,
+                    "kycAccount": {
+                        "data": null,
+                        "errorCode": null
+                    },
+                    "failUW": {},
+                    "policyNeedVerify": false
+                },
+                "dynamicHub": {
+                    "status": "initial",
+                    "metaData": {},
+                    "products": [],
+                    "widgets": [],
+                    "tabs": [],
+                    "params": [],
+                    "isLastPage": true
+                }
+            },
+            "loginV2": {
+                "isLoading": false,
+                "isNewUser": false,
+                "loginV2Data": {},
+                "resetPass": {},
+                "loginWithSMS": {}
+            },
+            "searchSuggestion": {
+                "loading": false,
+                "showSuggestion": false,
+                "q": "",
+                "data": {},
+                "topWidgets": [],
+                "bottomWidgets": []
+            },
+            "tikingonCart": {
+                "storeId": 0,
+                "cartDiscount": 0,
+                "costSavingText": "",
+                "cartTotal": 0,
+                "cartSize": 0,
+                "itemsCount": 0,
+                "cartMessage": "",
+                "cartMessageType": "",
+                "showCartMessAction": false,
+                "cartDialog": null,
+                "products": {},
+                "masterIdCartItemCountMap": {},
+                "loading": true,
+                "spcAmplitudeQueue": [],
+                "spcCartAmplitude": {},
+                "carts": {
+                    "firstLoaded": false,
+                    "data": [],
+                    "showCartListing": false
+                }
+            },
+            "payfa": {
+                "screenStack": [
+                    "PAYMENT_INFO"
+                ],
+                "paymentInfo": {},
+                "sessionInfo": {},
+                "fetchStatus": {
+                    "PAYMENT_INFO": "FETCHING"
+                },
+                "methodList": {},
+                "selectedBankId": "",
+                "checkoutResponse": {},
+                "pay123BankList": [],
+                "cybersourceFormData": {},
+                "formSubmit": {},
+                "transactionData": {},
+                "toast": {}
+            },
+            "mobile": {
+                "common": {
+                    "userInfo": {},
+                    "drawerOpen": false,
+                    "cartsMineInfo": {}
+                },
+                "home": {
+                    "commonResults": {
+                        "destinations1": [],
+                        "destinations2": [],
+                        "productGroups1": [],
+                        "productGroups2": [],
+                        "status": "loading"
+                    }
+                },
+                "search": {
+                    "loading": false,
+                    "showSuggestion": false,
+                    "data": []
+                },
+                "account": {
+                    "accountAddress": [],
+                    "clickedAddressId": -1
+                },
+                "directory": {
+                    "regions": [],
+                    "districts": [],
+                    "wards": []
+                },
+                "product": {
+                    "productDetail": {
+                        "productNotFound": false
+                    },
+                    "productInfo": {},
+                    "deliveryTime": [],
+                    "actionModal": {
+                        "isOpen": false,
+                        "actionName": "",
+                        "title": "",
+                        "data": {}
+                    },
+                    "snackbar": {
+                        "snackVisible": false,
+                        "message": ""
+                    },
+                    "tikiFresh": {
+                        "loading": false
+                    }
+                },
+                "sellerStore": {
+                    "collections": [],
+                    "seller": {},
+                    "products": {},
+                    "sellerStoreInfo": {}
+                },
+                "listingPage": {
+                    "products": {
+                        "data": [],
+                        "paging": {},
+                        "aggregations": {},
+                        "sortOptions": [],
+                        "filters": []
+                    },
+                    "loading": true,
+                    "isFilterChange": true,
+                    "queryParams": {},
+                    "snackbar": {
+                        "snackVisible": false,
+                        "message": ""
+                    },
+                    "locationPicker": {
+                        "isOpenLocationPicker": false,
+                        "area": ""
+                    }
+                },
+                "checkout": {
+                    "checkoutAddress": [],
+                    "clickedAddressId": -1,
+                    "subcription": {}
+                }
+            },
+            "catalog": {
+                "loading": true,
+                "error": true,
+                "isFetchServer": false,
+                "isFetchDelivery": false,
+                "banners": [],
+                "mainBanners": [],
+                "categoryData": {},
+                "redirectUrl": "",
+                "aggregations": {},
+                "data": [],
+                "amplitude": {},
+                "paging": {},
+                "filters": [],
+                "serviceFilter": [],
+                "sort_options": [],
+                "sellers": [],
+                "staticBanner": {},
+                "queryParams": {},
+                "authorData": {}
+            },
+            "deal": {
+                "flashDeals": [],
+                "flashDealsEmpty": false,
+                "flashDealTimes": [],
+                "flashDealTags": [
+                    {},
+                    {},
+                    {},
+                    {},
+                    {},
+                    {},
+                    {},
+                    {},
+                    {},
+                    {}
+                ],
+                "pagingFlashDeals": {},
+                "paramsFlashDeals": {
+                    "time_id": "now"
+                },
+                "errorFlashDeals": {},
+                "loadingInitialItems": true
+            },
+            "accountTikinow": {
+                "cancel": {
+                    "step": "qna",
+                    "submitting": false,
+                    "reasonCode": null,
+                    "cancelResponse": {
+                        "title": "Bạn đã hủy TikiNOW thành công",
+                        "content": [
+                            {
+                                "text": "Gói Hội viên TikiNOW sẽ hết hạn vào ngày \u003cb\u003e29/12/2020\u003c/b\u003e. Kể từ ngày 30/12/2020, bạn sẽ không còn được hưởng các quyền lợi dành cho hội viên.",
+                                "is_highlighted": false
+                            },
+                            {
+                                "text": "Theo Chính sách của TikiNOW, bạn sẽ không được hoàn tiền cho yêu cầu Huỷ TikiNOW này.\u003cbr/\u003e\u003cb\u003e\u003ca href=\"https://tiki.vn\"\u003eXem chi tiết tại đây \u003e\u003c/a\u003e\u003c/b\u003e",
+                                "is_highlighted": true
+                            },
+                            {
+                                "text": "TikiNOW rất tiếc vì đã không đáp ứng được nhu cầu của bạn. Chúng tôi sẽ cố gắng hoàn thiện chất lượng dịch vụ, hy vọng bạn sẽ quay lại để trải nghiệm.",
+                                "is_highlighted": false
+                            },
+                            {
+                                "text": "Cảm ơn bạn đã sử dụng TikiNOW.",
+                                "is_highlighted": false
+                            }
+                        ]
+                    },
+                    "errorMessage": null
+                },
+                "cancellationInfo": {
+                    "loading": false,
+                    "data": null
+                },
+                "cancelReasons": {
+                    "loading": false,
+                    "data": [],
+                    "metadata": null
+                }
+            },
+            "reward": {
+                "image": null,
+                "title": null,
+                "subject": null
+            },
+            "quickPayment": {
+                "quickPaymentParams": {},
+                "quickPaymentData": {},
+                "paymentPromotionData": {},
+                "paymentBadges": {},
+                "showLoading": false,
+                "errorDialog": {
+                    "isOpen": false,
+                    "message": "",
+                    "actionAfterClose": ""
+                },
+                "toast": {
+                    "isShow": false,
+                    "type": "",
+                    "content": ""
+                },
+                "orderInfo": {},
+                "coupons": {},
+                "eligibleCoupons": {},
+                "promotionConditions": {}
+            },
+            "campaign": {
+                "flashDeals": {},
+                "asaCoupons": {
+                    "coupons": {},
+                    "status": "initial",
+                    "submitCode": -3,
+                    "message": ""
+                },
+                "sellerCoupons": {
+                    "coupons": {},
+                    "submitCode": -3,
+                    "message": ""
+                },
+                "coupons": {},
+                "products": {},
+                "normalDeal": {},
+                "couponHub": {},
+                "forms": {},
+                "votings": {},
+                "slotMachines": {}
+            },
+            "tikinowPns": {
+                "data": {},
+                "result": {},
+                "sending": false
+            },
+            "tikinowLpV2": {
+                "data": {},
+                "faq": {},
+                "loading": true,
+                "hideExclusiveProductTab": false,
+                "banners": [],
+                "products": {
+                    "loading": true,
+                    "data": [],
+                    "nextPageToken": null
+                },
+                "fastShipRegion": [],
+                "freeTrialQuickPayment": {
+                    "loading": false,
+                    "error": ""
+                },
+                "exclusivePriceProducts": {
+                    "data": [],
+                    "loading": false,
+                    "hasEnd": false
+                },
+                "reviews": {},
+                "loadingReviews": false
+            },
+            "tikingonHome": {
+                "homeBackgroundUrl": "",
+                "config": {
+                    "blocks": [
+                        {
+                            "code": "tikingon_home_top_banner_container",
+                            "layout_type": "tikingon_top_banner",
+                            "internal_url": "",
+                            "url": "https://api.tiki.vn/shopping-tikifresh/v2/home/tikingon/banners?platform=desktop"
+                        },
+                        {
+                            "code": "tikingon_home_quicklinks_tab_container",
+                            "layout_type": "tikingon_quick_link",
+                            "internal_url": "",
+                            "url": "https://api.tiki.vn/shopping-tikifresh/v2/home/tikingon/quick_link?platform=desktop"
+                        },
+                        {
+                            "code": "tikingon_home_deal",
+                            "layout_type": "tikingon_flash_deal",
+                            "internal_url": "",
+                            "url": "https://api.tiki.vn/raiden/v2/widget/fresh?per_page=16"
+                        },
+                        {
+                            "code": "tikingon_home_seller_recommendations",
+                            "layout_type": "tikingon_seller_recommendations",
+                            "internal_url": "",
+                            "url": "https://api.tiki.vn/shopping-tikifresh/v1/home-seller-recommendations?platform=desktop"
+                        },
+                        {
+                            "code": "tikingon_home_theme_recommendations",
+                            "layout_type": "tikingon_theme_recommendations",
+                            "internal_url": "",
+                            "url": "https://api.tiki.vn/shopping-tikifresh/v1/theme-recommendations/home-widget"
+                        },
+                        {
+                            "code": "tikingon_home_product_collection_kitchen_week",
+                            "layout_type": "tikingon_product_collection",
+                            "internal_url": "",
+                            "url": "https://api.tiki.vn/brickv2/api/public/collections/tikingon/widget/37"
+                        },
+                        {
+                            "code": "tikingon_home_product_collection_black_friday",
+                            "layout_type": "tikingon_product_collection",
+                            "internal_url": "",
+                            "url": "https://api.tiki.vn/brickv2/api/public/collections/tikingon/widget/44"
+                        },
+                        {
+                            "code": "tikingon_home_featured_categories",
+                            "layout_type": "tikingon_featured_categories",
+                            "internal_url": "",
+                            "url": "https://tiki.vn/api/personalish/v1/blocks/categories?block_code=featured_categories_tikingon"
+                        },
+                        {
+                            "code": "tikingon_infinite_scroll",
+                            "layout_type": "tikingon_infinite_scroll",
+                            "internal_url": "",
+                            "url": "https://tiki.vn/api/personalish/v1/blocks/sellerstores?block_code=tikingon_infinite_scroll\u0026page_size=6\u0026no_shippable_filter=1"
+                        }
+                    ],
+                    "variant_code": "default"
+                },
+                "firstScreen": [
+                    {
+                        "code": "tikingon_home_top_banner_container",
+                        "layout_type": "tikingon_top_banner",
+                        "isPreload": true,
+                        "isSSR": true,
+                        "url": ""
+                    },
+                    {
+                        "code": "tikingon_home_quicklinks_tab_container",
+                        "layout_type": "tikingon_quick_link",
+                        "isPreload": false,
+                        "isSSR": true,
+                        "url": ""
+                    },
+                    {
+                        "code": "tikingon_home_deal",
+                        "layout_type": "tikingon_flash_deal",
+                        "isPreload": false,
+                        "isSSR": true,
+                        "url": ""
+                    },
+                    {
+                        "code": "tikingon_home_seller_recommendations",
+                        "layout_type": "tikingon_seller_recommendations",
+                        "isPreload": false,
+                        "isSSR": true,
+                        "url": ""
+                    },
+                    {
+                        "code": "tikingon_home_theme_recommendations",
+                        "layout_type": "tikingon_theme_recommendations",
+                        "isPreload": false,
+                        "isSSR": true,
+                        "url": ""
+                    }
+                ],
+                "largestImageUrl": ""
+            },
+            "tikinowThankYou": {
+                "data": {}
+            },
+            "dynamicHome": {
+                "config": {
+                    "blocks": [
+                        {
+                            "code": "home_category_tab",
+                            "layout_type": "home_category_tab",
+                            "internal_url": "http://zorba.tiki.services/v2/widgets/home-category-tab-bar",
+                            "url": "https://api.tiki.vn/shopping/v2/widgets/home-category-tab-bar"
+                        },
+                        {
+                            "code": "home_banner_top",
+                            "layout_type": "home_banner_top",
+                            "internal_url": "",
+                            "url": "",
+                            "child_block": [
+                                {
+                                    "code": "home_banner_top_left_v2",
+                                    "layout_type": "home_banner_top_left_v2",
+                                    "internal_url": "",
+                                    "url": "https://tka.tiki.vn/widget/api/v1/banners-group?group=home_banner_main_v2\u0026platform=desktop"
+                                },
+                                {
+                                    "code": "home_banner_top_right",
+                                    "layout_type": "callout_banner",
+                                    "internal_url": "",
+                                    "url": "https://tiki.vn/api/shopping/v2/callout/god_banner"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "home_deal_and_reward",
+                            "layout_type": "home_deal_and_reward",
+                            "internal_url": "",
+                            "url": "",
+                            "child_block": [
+                                {
+                                    "code": "home_deal",
+                                    "layout_type": "tiki_deal",
+                                    "internal_url": "",
+                                    "url": "https://tiki.vn/api/v2/widget/deals/collection?per_page=12"
+                                },
+                                {
+                                    "code": "rewards_widget_v2",
+                                    "layout_type": "rewards_widget_v2",
+                                    "internal_url": "",
+                                    "url": "https://api.tiki.vn/raiden/v2/home/widgets/rewards/asa/new?platform=desktop"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "home_brand",
+                            "layout_type": "home_brand",
+                            "internal_url": "http://zorba.tiki.services/v2/widgets/banner/home-brand?platform=ios\u0026platform=desktop",
+                            "url": "https://tiki.vn/api/shopping/v2/widgets/banner/home-brand"
+                        },
+                        {
+                            "code": "home_quicklinks_tab_container",
+                            "layout_type": "home_quicklinks",
+                            "internal_url": "http://zorba.tiki.services/v2/widgets/quick_link?platform=desktop",
+                            "url": "https://tiki.vn/api/shopping/v2/widgets/quick_link?platform=desktop"
+                        },
+                        {
+                            "code": "brand_static_widget",
+                            "layout_type": "brand_static_widget",
+                            "internal_url": "",
+                            "url": "https://api.tiki.vn/shopping/v2/widgets/brand-static"
+                        },
+                        {
+                            "code": "brand_static_widget_v2",
+                            "layout_type": "brand_static_widget_v2",
+                            "internal_url": "",
+                            "url": "https://tka.tiki.vn/widget/api/v1/static-brand?platform=desktop"
+                        },
+                        {
+                            "code": "home_banner_primary_container",
+                            "layout_type": "home_v4_primary_banner",
+                            "internal_url": "http://zorba.tiki.services/v2/banners?group=home_v4_primary_banner",
+                            "url": "https://tiki.vn/api/shopping/v2/banners?group=home_v4_primary_banner"
+                        },
+                        {
+                            "code": "featured_categories",
+                            "layout_type": "featured_categories",
+                            "internal_url": "",
+                            "url": "https://tiki.vn/api/personalization/v2/homepage?widget_only=featured_categories"
+                        },
+                        {
+                            "code": "featured_keywords",
+                            "layout_type": "featured_items",
+                            "internal_url": "",
+                            "url": "https://tiki.vn/api/personalization/v2/homepage?widget_only=featured_keywords"
+                        },
+                        {
+                            "code": "home_banner_middle_container",
+                            "layout_type": "home_banner_main_mini_v2",
+                            "internal_url": "http://zorba.tiki.services/v2/banners?group=home_banner_main_mini_v2",
+                            "url": "https://tiki.vn/api/shopping/v2/banners?group=home_banner_main_mini_v2"
+                        },
+                        {
+                            "code": "infinite_scroll",
+                            "layout_type": "infinite_scroll",
+                            "internal_url": "",
+                            "url": "https://tiki.vn/api/personalish/v3/homepage?widget_only=infinite_scroll"
+                        }
+                    ]
+                },
+                "firstScreen": {},
+                "largestImageUrl": ""
+            },
+            "dynamicRenderWidget": {},
+            "installmentPlan": {
+                "items": [],
+                "platformCoupons": {},
+                "sellerCoupons": {},
+                "banks": [],
+                "methods": [],
+                "planTable": {},
+                "selectedMethod": "",
+                "selectedBank": {},
+                "selectedCardType": {},
+                "loading": false,
+                "dialog": {
+                    "isImported": false,
+                    "isOpen": false,
+                    "type": "info"
+                },
+                "asaInfo": {},
+                "trackingInfo": {},
+                "shippingAddress": {},
+                "promotionBadges": {}
+            },
+            "installmentResult": {
+                "orderInfo": {},
+                "loading": false
+            },
+            "installmentOnepage": {
+                "cartInfo": {},
+                "paymentPromotion": {},
+                "promotionBadge": {},
+                "loading": false,
+                "dialogInitState": {
+                    "isImported": false,
+                    "isOpen": false,
+                    "type": "info",
+                    "message": ""
+                },
+                "scheduleNote": "",
+                "eligibleCoupons": {},
+                "allCoupons": {},
+                "promotionConditions": {},
+                "latestTaxInfo": {},
+                "invoiceRequested": false,
+                "taxInfo": {},
+                "sellerCoupons": {},
+                "couponBox": {}
+            },
+            "cartV2": {
+                "topMessage": {},
+                "cartItems": {},
+                "cartSummary": {},
+                "comboDiscount": {},
+                "sellerSuggestions": {},
+                "sellerCoupons": {},
+                "dialog": {
+                    "isImported": false,
+                    "isOpen": false,
+                    "type": "info"
+                },
+                "isSelectAll": false,
+                "modal": {},
+                "unAvailableProduct": {},
+                "isShowTikiNgonLink": false,
+                "eligibleCoupons": {},
+                "platformCoupons": {},
+                "shoppingCartGift": {},
+                "banners": []
+            },
+            "tikingonSPC": {
+                "storeInfo": {},
+                "popupStack": [],
+                "recommendedStores": {},
+                "availableProductStores": {},
+                "giftPromotions": {},
+                "storeNotFound": false,
+                "categories": [],
+                "categoryProducts": [],
+                "thematicCollections": [],
+                "currentCategory": null,
+                "categoriesPaging": {},
+                "categoriesAmplitude": {},
+                "featuredProduct": {},
+                "featuredProductNotFound": false,
+                "couponItems": [],
+                "allowSendingAmplitudeTracking": false,
+                "productExtraDetail": {},
+                "isProductDialogOpened": false,
+                "isRecallFeatureProductInClient": false,
+                "suggestionPopupProducts": {},
+                "asaCouponData": {},
+                "couponsData": {},
+                "legalConfirmPopup": {},
+                "themeCollection": {}
+            },
+            "tikiNgonHubListing": {
+                "apiData": {
+                    "data": [],
+                    "paging": {},
+                    "moreLink": ""
+                },
+                "params": {},
+                "categoryData": {},
+                "serverFetch": false,
+                "categoryMeta": {
+                    "metaTitle": "",
+                    "metaDescription": ""
+                }
+            },
+            "tikiNgonStoreListing": {
+                "apiData": {
+                    "data": [],
+                    "paging": {},
+                    "moreLink": ""
+                },
+                "params": {}
+            },
+            "tikiNgonStoreFlashSale": {
+                "paging": {},
+                "flashDeal": [],
+                "params": {
+                    "time_id": 0
+                },
+                "flashDealTimes": [],
+                "flashDealSelectedTime": 0,
+                "initialFetchDone": false,
+                "loading": true
+            },
+            "tikingonCollection": {
+                "metaData": {},
+                "nextPage": null,
+                "loading": false,
+                "pageInfo": {
+                    "page": 0,
+                    "total": 0,
+                    "totalPages": 0
+                },
+                "products": []
+            },
+            "tikingonThematic": {
+                "metaData": {},
+                "amplitude": {},
+                "nextPage": null,
+                "loading": false,
+                "pageInfo": {
+                    "page": 0,
+                    "total": 0,
+                    "totalPages": 0
+                },
+                "stores": []
+            },
+            "tikiNgonStoreCollection": {
+                "metaData": {},
+                "nextPage": null,
+                "status": "initial",
+                "pageInfo": {
+                    "page": 0,
+                    "total": 0,
+                    "totalPages": 0
+                },
+                "products": []
+            },
+            "tikiNgonFlashSale": {
+                "datetime": "",
+                "filters": {},
+                "paging": {},
+                "flashDeal": [],
+                "params": {
+                    "time_id": 0
+                },
+                "flashDealTimes": [],
+                "flashDealSelectedTime": 0,
+                "initialFetchDone": false,
+                "firstLoaded": false,
+                "isLoading": false
+            },
+            "tikiNgonHubCategoryBottom": {
+                "categoriesData": []
+            },
+            "tikiNgonStoreGiaTot": {
+                "status": "loading",
+                "clientFetched": false,
+                "metaData": {},
+                "products": []
+            },
+            "buyNow": {
+                "tikiNgonData": {},
+                "modal": {
+                    "isShow": false
+                }
+            },
+            "onepage": {
+                "cartInfo": {},
+                "paymentPromotion": {},
+                "paymentBadge": {},
+                "loading": false,
+                "dialogInitState": {
+                    "isImported": false,
+                    "isOpen": false,
+                    "type": "info",
+                    "message": ""
+                },
+                "scheduleNote": "",
+                "leaveAtDoorState": {},
+                "shippingAddress": {},
+                "eligibleCoupons": {},
+                "allCoupons": {},
+                "promotionConditions": {},
+                "latestTaxInfo": {},
+                "tikiNgonNote": "",
+                "invoiceRequested": false,
+                "taxInfo": {},
+                "selectedBankId": "",
+                "giftInfo": {},
+                "giftNote": {},
+                "vnPayBankList": [],
+                "sellerCoupons": {},
+                "couponBox": {}
+            },
+            "repayment": {
+                "orderInfo": {},
+                "methodInfo": {},
+                "loading": false,
+                "dialog": {
+                    "isImported": false,
+                    "isOpen": false,
+                    "type": "info",
+                    "message": ""
+                },
+                "selectedMethodId": "",
+                "selectedBankId": "",
+                "selectedTokenId": "",
+                "vnPayBankList": [],
+                "paymentBadges": {}
+            },
+            "topupXu": {
+                "topupXuData": {},
+                "modal": {
+                    "isShow": false
+                },
+                "rewardHistories": {},
+                "dialog": {
+                    "isImported": false,
+                    "isOpen": false,
+                    "type": "info"
+                },
+                "redeemData": {},
+                "transferXuData": {},
+                "isUsingTransferXu": false,
+                "receiverInfo": {},
+                "receiverMessage": "",
+                "receiverType": "",
+                "pinData": {},
+                "customerPinStt": ""
+            },
+            "insurtech": {
+                "home": {
+                    "homeLoading": true,
+                    "homeConfig": {},
+                    "slideBanners": {},
+                    "banner": {},
+                    "homeModal": {},
+                    "featuredBanner": []
+                },
+                "moreDocs": {
+                    "claimDocuments": {}
+                },
+                "embedded": {
+                    "introduction": {},
+                    "embeddedPolicy": {},
+                    "policy": {}
+                },
+                "product": {
+                    "similarProducts": [],
+                    "insurer": {},
+                    "referrals": {},
+                    "referralLink": {},
+                    "asaCoupon": {}
+                },
+                "liberty": {},
+                "activationPolices": {
+                    "activation_policies": {},
+                    "activation_filter": {},
+                    "fundInfo": {}
+                },
+                "unfinishedPolices": {
+                    "unfinishedConfig": {},
+                    "policyUnfinished": {}
+                },
+                "pdp": {
+                    "similarProducts": [],
+                    "insurer": {},
+                    "referrals": {},
+                    "referralLink": {},
+                    "asaCoupon": {}
+                },
+                "review": {
+                    "policy": {}
+                }
+            },
+            "returnTracking": {
+                "dialog": {
+                    "isImported": false,
+                    "isOpen": false,
+                    "type": "info",
+                    "style": {}
+                },
+                "returnTrackingList": {},
+                "returnTrackingDetail": {
+                    "loading": true
+                }
+            },
+            "rewardHome": {
+                "config": {},
+                "homeLayout": {},
+                "loadingHomeLayout": true,
+                "voucherList": {
+                    "total": 0,
+                    "items": []
+                },
+                "loadingVoucherList": false,
+                "gameList": {
+                    "total": 0,
+                    "items": []
+                },
+                "loadingGameList": false,
+                "appDownloadModal": {
+                    "isShow": false,
+                    "img": ""
+                },
+                "fetchingRewardHomeInfor": false,
+                "rewardData": {},
+                "loadingHistoryRecent": false,
+                "historyRecentData": [],
+                "transactionData": null
+            },
+            "rewardCoupons": {},
+            "rewardAchievementHistory": {
+                "blocks": [],
+                "historyActivity": {
+                    "title": "",
+                    "filters": [],
+                    "apiPath": "",
+                    "page": 1,
+                    "limit": 10,
+                    "activeStatusFilterValue": 0,
+                    "activeTimeFilterValue": "",
+                    "items": [],
+                    "hasNextPage": false,
+                    "isLoading": true,
+                    "isLoadingMore": false
+                },
+                "isFetchingBlocks": true,
+                "loginInfo": {
+                    "isLoading": true,
+                    "isLogged": false
+                }
+            },
+            "rewardPrivilege": {
+                "rewardPrivilegeData": [],
+                "loadingRewardPrivilege": true,
+                "loginInfo": {
+                    "isLoading": true,
+                    "isLogged": false
+                },
+                "transactionInfo": {
+                    "loading": false,
+                    "loaded": false,
+                    "data": [],
+                    "paging": {
+                        "total": 0,
+                        "limit": 50,
+                        "currentPage": 1
+                    }
+                }
+            },
+            "rewardToast": {},
+            "upgradeSepLevel": {
+                "loading": true,
+                "packageInfo": null,
+                "sepListInfo": null
+            },
+            "rewardRule": {
+                "loading": false,
+                "rewardRuleData": {}
+            },
+            "bnpl": {
+                "partnerList": {
+                    "data": {
+                        "available_partners": {},
+                        "register_partners": {}
+                    },
+                    "dataV2": {
+                        "partners": []
+                    },
+                    "isLoading": false,
+                    "isProductLoading": false,
+                    "errors": {},
+                    "selectedPartner": "",
+                    "config": {},
+                    "isSubmittingPartner": false,
+                    "submitPartnerError": {}
+                },
+                "common": {
+                    "data": {},
+                    "isLoading": false,
+                    "errors": {
+                        "message": "",
+                        "error_code": null
+                    },
+                    "whitelist": {}
+                },
+                "address": {
+                    "data": [],
+                    "isLoading": false,
+                    "errors": {},
+                    "isDeletingAddress": false,
+                    "isGettingSelectedAddress": false,
+                    "selectedAddressId": null,
+                    "addressForm": {
+                        "type": "create",
+                        "data": {},
+                        "isShow": false
+                    }
+                },
+                "checkout": {
+                    "cart": {},
+                    "isLoading": false,
+                    "errors": {},
+                    "errorSection": {},
+                    "createCartSuccess": false,
+                    "isGettingGift": false,
+                    "giftItemData": {
+                        "data": [],
+                        "meta": {}
+                    },
+                    "isUpdatingGift": false,
+                    "updateGiftAddOnErrors": {},
+                    "isUpdatingDynamicSection": false,
+                    "updateQuantity": 0,
+                    "previousCartData": {},
+                    "requestController": null
+                },
+                "onboarding": {
+                    "onboardingStatusData": {},
+                    "isLoadingStatus": false,
+                    "errorsStatus": {},
+                    "errors": {},
+                    "isLoadingOnboardingUrl": false,
+                    "data": {}
+                },
+                "paymentWebview": {
+                    "isGettingUrl": false,
+                    "urlPaymentWebview": "",
+                    "getUrlErrors": {},
+                    "isGettingResultPayment": false,
+                    "getResultErrors": {},
+                    "paymentResult": {
+                        "data": {},
+                        "error": {},
+                        "isLoading": false
+                    }
+                },
+                "payment": {
+                    "data": {},
+                    "offers": [],
+                    "selectedPartner": {},
+                    "priceSummary": {},
+                    "selectedOffer": {},
+                    "isLoadingOffers": false,
+                    "isGoingPayment": false,
+                    "offerErrors": {},
+                    "paymentErrors": {},
+                    "result": {}
+                },
+                "statement": {
+                    "statementData": {},
+                    "errors": {},
+                    "isLoadingStatementUrl": false
+                },
+                "listPhoneNumbers": {
+                    "data": [],
+                    "isLoading": false,
+                    "isOnboardInit": false,
+                    "errors": {},
+                    "emailError": "",
+                    "email": "",
+                    "selectedPhoneNumber": {},
+                    "inputPhoneError": ""
+                },
+                "coupon": {
+                    "dataSeller": {},
+                    "isLoadingSeller": false,
+                    "errorSellers": {},
+                    "platformCoupon": {},
+                    "isLoadingPlatformCoupon": false,
+                    "errorPlatforms": {}
+                },
+                "tracking": {},
+                "kycValidate": {
+                    "data": [],
+                    "isLoading": false,
+                    "errors": {}
+                },
+                "econtract": {
+                    "data": {},
+                    "isLoading": false,
+                    "errors": {},
+                    "expiredTime": 0,
+                    "econtractUrl": ""
+                },
+                "sendOtp": {
+                    "otp": {
+                        "data": {},
+                        "isLoading": false,
+                        "errors": {}
+                    },
+                    "verify": {
+                        "status": null,
+                        "data": {},
+                        "isLoading": false,
+                        "errors": {}
+                    },
+                    "otpErrorMessage": ""
+                },
+                "customerInfo": {
+                    "extendInfo": {},
+                    "formData": [],
+                    "formValues": {},
+                    "region": [],
+                    "district": [],
+                    "ward": [],
+                    "isLoading": false,
+                    "isSubmittingForm": false,
+                    "errors": {},
+                    "formError": [],
+                    "readOnlyAddress": false,
+                    "submitResult": {},
+                    "statusOnboardingResult": {},
+                    "needRetry": false,
+                    "requestedTime": 0,
+                    "isLoadingRegions": false,
+                    "isLoadingWards": false,
+                    "isLoadingDistricts": false,
+                    "isRedirectToOtherPage": false
+                },
+                "checkStatusOnboarding": {
+                    "data": {},
+                    "isLoading": false,
+                    "errors": null
+                },
+                "promotion": {
+                    "isLoadingPromotion": false,
+                    "promotions": {
+                        "methods": []
+                    },
+                    "promotionBanners": [],
+                    "promotionBadges": {},
+                    "promotionCondtions": {}
+                },
+                "faq": {
+                    "data": {},
+                    "faqCategoryContent": {},
+                    "isLoading": false,
+                    "errors": {}
+                },
+                "loanInfo": {
+                    "loanInfoData": [],
+                    "isLoading": false,
+                    "errors": {}
+                }
+            },
+            "rewardShareSep": {
+                "rewardShareData": {}
+            },
+            "financial": {
+                "lending": {
+                    "loadStatus": {
+                        "error": null,
+                        "loading": false,
+                        "data": null
+                    },
+                    "loanPackage": {
+                        "error": null,
+                        "loading": false,
+                        "data": null
+                    },
+                    "loanConfiguration": {
+                        "error": null,
+                        "loading": false,
+                        "data": {}
+                    },
+                    "loanMonthlyPayment": {
+                        "error": null,
+                        "loading": false,
+                        "data": null
+                    },
+                    "userInfo": {
+                        "error": null,
+                        "loading": false,
+                        "data": null
+                    }
+                }
+            },
+            "checkoutResult": {
+                "showOffOrder": {
+                    "loading": false,
+                    "data": {}
+                }
+            },
+            "themeCollection": {
+                "metaData": {},
+                "loading": false,
+                "firstLoaded": false,
+                "collectionsData": {},
+                "themeNotFound": false
+            },
+            "saveToEarn": {
+                "infoSummary": null,
+                "planDetail": null,
+                "createDepositData": null
+            },
+            "transferAstra": {
+                "modal": {
+                    "isShow": false
+                },
+                "dialog": {
+                    "isImported": false,
+                    "isOpen": false,
+                    "type": "info"
+                },
+                "transferAstraData": {},
+                "receiverInfo": {},
+                "senderMessage": "",
+                "senderAmount": "0",
+                "senderType": "",
+                "senderFee": "",
+                "pinData": {},
+                "customerPinStt": "",
+                "transactionId": "",
+                "error": {
+                    "isImported": false,
+                    "isShowError": false,
+                    "errorMessage": ""
+                }
+            }
+        },
+        "initialProps": {
+            "isMobile": false,
+            "isServer": true,
+            "pageProps": {
+                "isWebview": false,
+                "routerPage": "/ProductPage",
+                "query": {
+                    "spid": "76012204",
+                    "name": "cuoc-doi-la-mot-tieu-thuyet",
+                    "id": "76012203"
+                },
+                "isServer": true,
+                "spId": "76012204",
+                "mpId": "76012203",
+                "reducers": [
+                    {
+                        "key": "desktop.product"
+                    },
+                    {
+                        "key": "desktop.review"
+                    },
+                    {
+                        "key": "desktop.account"
+                    },
+                    {
+                        "key": "loginV2"
+                    }
+                ],
+                "useInjectReducer": true
+            }
+        },
+        "store": {
+            "injectedReducers": {
+                "desktop": {},
+                "mobile": {},
+                "campaign": {},
+                "insurtech": {},
+                "bnpl": {},
+                "financial": {}
+            }
+        }
+    },
+    "page": "/ProductPage",
+    "query": {
+        "spid": "76012204",
+        "name": "cuoc-doi-la-mot-tieu-thuyet",
+        "id": "76012203"
+    },
+    "buildId": "dS0yK-mKAktWOCfvZeiHR",
+    "assetPrefix": "https://frontend.tikicdn.com/_desktop-next",
+    "isFallback": false,
+    "dynamicIds": [
+        "A4YR",
+        "3Y79",
+        "CTfD",
+        "XDrR",
+        "cbLD",
+        "eHG4",
+        "yi/c",
+        "ywgC",
+        "8Zp8",
+        "Wy2T",
+        "0Yld",
+        "593z",
+        "9fKL",
+        "Aowy",
+        "JtpV",
+        "Sct/",
+        "Wknl",
+        "bgMo",
+        "j035",
+        "n8BF",
+        "qkBe",
+        "pLh7",
+        "iXzu",
+        "+f8N",
+        "8reV",
+        "Nvg3",
+        "Ogfv",
+        "bdbo",
+        "/eUD",
+        "/vfh",
+        "1vnq",
+        "25CD",
+        "27S3",
+        "2UUl",
+        "2tSK",
+        "3Sz5",
+        "495I",
+        "4feL",
+        "4n2w",
+        "5YGv",
+        "5ZLP",
+        "5tWw",
+        "6JrK",
+        "6oRp",
+        "82ca",
+        "8Jek",
+        "8kGW",
+        "8pUg",
+        "99xA",
+        "9rKB",
+        "9vko",
+        "AdCn",
+        "BoRb",
+        "EdTv",
+        "GB0E",
+        "Ht6y",
+        "IqUr",
+        "JGq6",
+        "L7zD",
+        "LSXK",
+        "MSNB",
+        "N1Lx",
+        "NgIc",
+        "R51j",
+        "RJya",
+        "RzYt",
+        "SHc3",
+        "Td3e",
+        "WVyU",
+        "We69",
+        "YyLc",
+        "ZbAl",
+        "Zx7q",
+        "b1d5",
+        "drO/",
+        "eM0c",
+        "flnU",
+        "h9dR",
+        "i7LN",
+        "iHUg",
+        "iWpb",
+        "jFWS",
+        "jffb",
+        "kd9Q",
+        "lNMP",
+        "lUS9",
+        "msBY",
+        "nMZY",
+        "q+lz",
+        "qPzc",
+        "qrtn",
+        "rAIh",
+        "tJXC",
+        "ubt0",
+        "vrqo",
+        "w24S",
+        "wBwe",
+        "wMKW",
+        "zu5k",
+        "+eav",
+        "/6KZ",
+        "/Lgp",
+        "/Vl9",
+        "0HwX",
+        "0Sp3",
+        "41F1",
+        "4Xtu",
+        "5BpW",
+        "5gKE",
+        "67sl",
+        "6wgB",
+        "7oj+",
+        "8Xl/",
+        "ADe/",
+        "Cs9m",
+        "Dkg+",
+        "E6Ca",
+        "G+Zn",
+        "GCLZ",
+        "Gjrs",
+        "GyeN",
+        "HD3J",
+        "HbTz",
+        "Jh4J",
+        "KELd",
+        "Kdq7",
+        "KyLU",
+        "LPDj",
+        "MRte",
+        "N9zW",
+        "PPkd",
+        "Q5TA",
+        "Qqke",
+        "T/1i",
+        "T4P6",
+        "TTxG",
+        "TaGV",
+        "UTwT",
+        "UvcN",
+        "WbNG",
+        "WwSA",
+        "Xj5l",
+        "XmXP",
+        "YlUf",
+        "Zv/C",
+        "ct/D",
+        "dCrc",
+        "dR8c",
+        "dn9X",
+        "eOWL",
+        "eR4j",
+        "eTWF",
+        "fGh/",
+        "g2rQ",
+        "gMWQ",
+        "gSCB",
+        "gou2",
+        "gtwY",
+        "hYpR",
+        "iKhv",
+        "k/kI",
+        "kBaS",
+        "lBnu",
+        "m/Uw",
+        "miGZ",
+        "n6P+",
+        "o3C2",
+        "phsM",
+        "qA3Z",
+        "rIjD",
+        "sWB5",
+        "sqS1",
+        "wv3L",
+        "zJT+",
+        "zWQs",
+        "zeFm",
+        "/1nD",
+        "0C/m",
+        "0Q1j",
+        "0VMN",
+        "2agv",
+        "2lBV",
+        "4NnO",
+        "7lnb",
+        "AFnJ",
+        "Bcq9",
+        "CAwg",
+        "Clx3",
+        "EC7H",
+        "ErhN",
+        "FnK/",
+        "GBbY",
+        "IH2s",
+        "Kz1y",
+        "LJeX",
+        "M2wU",
+        "M44s",
+        "NFWU",
+        "Ng5M",
+        "OcvO",
+        "PSh9",
+        "Px02",
+        "Q8HJ",
+        "RhM5",
+        "S6Oy",
+        "T2oc",
+        "TcPG",
+        "VJcA",
+        "Vlwe",
+        "ZCHz",
+        "bztI",
+        "cmcF",
+        "eNG8",
+        "fe8y",
+        "gi48",
+        "lhBK",
+        "m2MI",
+        "oICS",
+        "pzrO",
+        "sK+c",
+        "snOE",
+        "tbIA",
+        "u67i",
+        "vFkh",
+        "wQpU",
+        "yO+b",
+        "Z6ja",
+        "+I+c",
+        "0942",
+        "CHlC",
+        "J1LG",
+        "P+uj",
+        "TJjZ",
+        "YZeP",
+        "aNYv",
+        "dV/x",
+        "e+GP",
+        "hisu",
+        "hz6a",
+        "qMMZ",
+        "rQBY",
+        "yBJb",
+        "yV2R",
+        "zal3",
+        "/ONk",
+        "3A0L",
+        "7oZZ",
+        "9Aff",
+        "CU6Z",
+        "G53h",
+        "KEuL",
+        "Ler/",
+        "M1wS",
+        "RHZo",
+        "VLro",
+        "YJVD",
+        "ZYG8",
+        "Zppy",
+        "ZyIo",
+        "ahdf",
+        "c0sS",
+        "gr2r",
+        "iSm5",
+        "ltxk",
+        "siAx",
+        "tv1o",
+        "vFCr",
+        "yfdy",
+        "1BJg",
+        "C/Os"
+    ],
+    "customServer": true,
+    "gip": true,
+    "appGip": true
+}

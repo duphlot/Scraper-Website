@@ -1,0 +1,170 @@
+    {
+        "@context": "https://schema.org/",
+        "@graph": [
+            {
+                "@type": [
+                    "Product",
+                    "Book"
+                ],
+                "@id": "https://tiki.vn/cuoc-doi-la-mot-tieu-thuyet-p76012203.html?spid=76012204#product",
+                "name": "Cuộc Đời Là Một Tiểu Thuyết",
+                "url": "https://tiki.vn/cuoc-doi-la-mot-tieu-thuyet-p76012203.html?spid=76012204",
+                "description": "Với anh, mọi thứ đã được viết sẵnVới cô, mọi thứ đang đợi viết tiếp“Sáu tháng trước, ngày 12 tháng Tư năm 2010, con gái ba tuổi của tôi, Carrie Conway, đã bị bắt cóc trong lúc hai mẹ con đang chơi tr...",
+                "image": {
+                    "@id": "https://salt.tikicdn.com/cache/280x280/ts/product/9a/a3/6d/9d21cba3697470a92820052cd6a4f1dd.jpg/#primaryimage",
+                    "@type": "ImageObject",
+                    "inLanguage": "vi",
+                    "url": "https://salt.tikicdn.com/cache/280x280/ts/product/9a/a3/6d/9d21cba3697470a92820052cd6a4f1dd.jpg",
+                    "contentUrl": "https://salt.tikicdn.com/cache/280x280/ts/product/9a/a3/6d/9d21cba3697470a92820052cd6a4f1dd.jpg",
+                    "width": 800,
+                    "height": 800,
+                    "caption": "Cuộc Đời Là Một Tiểu Thuyết"
+                },
+                "sku": "5716584755759",
+                "mpn": "5716584755759",
+                "itemCondition": "https://schema.org/NewCondition",
+                "mainEntityOfPage": {
+                    "@id": "https://tiki.vn/cuoc-doi-la-mot-tieu-thuyet-p76012203.html?spid=76012204/#webpage"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "reviewCount": "478",
+                    "bestRating": "5"
+                },
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Nhã Nam"
+                },
+                "manufacturer": {
+                    "@type": "Organization",
+                    "name": "Nhã Nam"
+                },
+                "offers": [
+                    {
+                        "seller": {
+                            "@type": "Organization",
+                            "@id": "https://tiki.vn/cua-hang/tiki-trading#organization",
+                            "name": "Tiki Trading",
+                            "url": "https://tiki.vn/cua-hang/tiki-trading"
+                        },
+                        "priceSpecification": {
+                            "@type": "UnitPriceSpecification",
+                            "price": 106000,
+                            "priceCurrency": "VND",
+                            "referenceQuantity": {
+                                "@type": "QuantitativeValue",
+                                "value": "1",
+                                "unitCode": "CT"
+                            }
+                        },
+                        "priceValidUntil": "2023-01-18",
+                        "availability": "https://schema.org/InStock",
+                        "url": "https://tiki.vn/cuoc-doi-la-mot-tieu-thuyet-p76012203.html?spid=76012204"
+                    }
+                ],
+                "additionalProperty": [
+                    {
+                        "@type": "PropertyValue",
+                        "name": "Công ty phát hành",
+                        "value": "Nhã Nam"
+                    },
+                    {
+                        "@type": "PropertyValue",
+                        "name": "Ngày xuất bản",
+                        "value": "2021-01-01 00:00:00"
+                    },
+                    {
+                        "@type": "PropertyValue",
+                        "name": "Kích thước",
+                        "value": "14 x 20.5 cm"
+                    },
+                    {
+                        "@type": "PropertyValue",
+                        "name": "Dịch Giả",
+                        "value": "Danh Việt"
+                    },
+                    {
+                        "@type": "PropertyValue",
+                        "name": "Loại bìa",
+                        "value": "Bìa mềm"
+                    },
+                    {
+                        "@type": "PropertyValue",
+                        "name": "Số trang",
+                        "value": "268"
+                    },
+                    {
+                        "@type": "PropertyValue",
+                        "name": "Nhà xuất bản",
+                        "value": "Nhà Xuất Bản Hội Nhà Văn"
+                    }
+                ],
+                "review": [
+                    {
+                        "@type": "Review",
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "bestRating": "5",
+                            "ratingValue": 5,
+                            "worstRating": "1"
+                        },
+                        "author": {
+                            "@type": "Person",
+                            "name": "Phạm Ngọc Hoàng"
+                        },
+                        "reviewBody": "Ngòi bút là sự dung hoà của Stephen King & Marc Levy. Tâm lý xã hội, ngôn tình, giả tưởng kỳ ảo, trinh thám gay cấn được cài cắm, lồng ghép, đan xen rất hài hoà, hợp lý. Phải công nhận Musso Guillaume viết rất đều & chắc tay. Không nghi ngờ gì nữa, đây lại là 1 tiểu thuyết trinh thám lãng mạn rất hay của Musso.",
+                        "datePublished": "2021-12-06",
+                        "name": "Cuộc Đời Là Một Tiểu Thuyết"
+                    },
+                    {
+                        "@type": "Review",
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "bestRating": "5",
+                            "ratingValue": 5,
+                            "worstRating": "1"
+                        },
+                        "author": {
+                            "@type": "Person",
+                            "name": "Nhái Ú"
+                        },
+                        "reviewBody": "Rất thích tác giả Musso nên khi ra cuốn này mình đã mua về. Tiki giao hàng nhanh, shipper thân thiện, rất hài lòng.",
+                        "datePublished": "2021-02-25",
+                        "name": "Cuộc Đời Là Một Tiểu Thuyết"
+                    },
+                    {
+                        "@type": "Review",
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "bestRating": "5",
+                            "ratingValue": 5,
+                            "worstRating": "1"
+                        },
+                        "author": {
+                            "@type": "Person",
+                            "name": "Huynh Hong Anh"
+                        },
+                        "reviewBody": "Tác phẩm này có thể gọi là tiểu thuyết trong tiểu thuyết. Là một tác phẩm rất hay và nhiều tình tiết bất ngờ, lẫn lộn giữa thế giới hư cấu và đời thực, nếu bạn đọc bằng cả trái tim thì sẽ cảm thấy đây là một quyển sách đẹp.",
+                        "datePublished": "2021-03-05",
+                        "name": "Cuộc Đời Là Một Tiểu Thuyết"
+                    }
+                ],
+                "author": {
+                    "@type": "Person",
+                    "name": "Guillaume Musso"
+                },
+                "workExample": {
+                    "@type": "Book",
+                    "@id": "https://tiki.vn/cuoc-doi-la-mot-tieu-thuyet-p76012203.html?spid=76012204",
+                    "bookFormat": "https://schema.org/Paperback",
+                    "inLanguage": "vi",
+                    "isbn": "5716584755759",
+                    "bookEdition": 1
+                },
+                "pattern": "modern",
+                "color": "Xanh",
+                "material": "Nhựa"
+            }
+        ]
+    }
