@@ -36,10 +36,6 @@ Scraper-Website is a project designed to collect data from websites programmatic
     source venv/bin/activate   # For Linux/MacOS
     venv\Scripts\activate    # For Windows
     ```
-3. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
 
 ### 3. Usage
 #### Configure the scraper
