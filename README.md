@@ -39,27 +39,17 @@ Scraper-Website is a project designed to collect data from websites programmatic
 
 ### 3. Usage
 #### Configure the scraper
-- Adjust the configurations in the file `config.yaml` or `settings.py` based on your scraping requirements. Example configuration might look like this:
+- Example configuration might look like this:
     ```yaml
     target_urls:
       - "https://example.com/page1"
       - "https://example.com/page2"
     output:
       format: "csv"
-      path: "output/data.csv"
+      path: "data.csv"
     headers:
       User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     ```
-
-#### Run the scraper
-1. Use the following command to start scraping:
-    ```bash
-    python scraper.py
-    ```
-2. Monitor logs and outputs in the terminal for status updates.
-
-#### Export Data
-- Scraped data will be stored in the `output/` folder in the format specified in the configuration (e.g., CSV, JSON).
 
 ### 4. Code Examples
 
@@ -104,8 +94,8 @@ for url in urls:
         product_data.append(data)
 
 # Save data to a CSV
-pd.DataFrame(product_data).to_csv('output/products.csv', index=False)
-print("Scraping completed. Data saved to output/products.csv")
+pd.DataFrame(product_data).to_csv('products.csv', index=False)
+print("Scraping completed. Data saved to products.csv")
 ```
 
 This code demonstrates scraping multiple product pages and saving the collected data into a CSV file.
